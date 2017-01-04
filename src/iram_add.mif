@@ -1,0 +1,110 @@
+-- NYU:Poly CS6133 Computer Architecture
+-- Instructor: Vikram Padman
+--
+-- Instruction Memory Initialization File
+--
+-- Instrucion Format:
+--
+-- R-Type: <6-bit Opcode>,<5-bit rs>,<5-bit rt>,<5-bit rd>,<5-bit shamt>,<6-bit funct>
+--    bits   (31-26)       (25-21)     (20-16)    (15-11)     (10-6)       (5-0)
+--
+-- I-Type: <6-bit Opcode>,<5-bit rs>,<5-bit rt>,<16-bit Address> 
+--   bits     (31-26)      (25-21)   (20-16)     (15-0)
+
+
+--File format:
+-- Hex Address 3 hex nibbles (12 bits) : bit31 ...... bit0;
+
+WIDTH=32;
+DEPTH=1024;
+
+ADDRESS_RADIX=HEX;
+DATA_RADIX=BIN;
+
+CONTENT BEGIN
+--Hex Address :   bit31..........................bit0;
+--   |             |                              |
+    000       :    10001100000000000000000000000000;
+--                 |____||___||___||______________|
+--                   |     |    |          |
+--                   lw, rs=0, rt=0,   offset=0 
+-- This is the first instruction that get's executed
+-- in mips_ss CPU in DE0-Nano.
+-- This is a lw instructioni. It loads r0 with data from
+-- data memory location 0. Data memory location 0 is 
+-- preloaded with 0, see DRAM.mif.
+--
+    001       :    10001100000000010000000000000100;
+--                 |____||___||___||______________|
+--                   |     |    |          |
+--                   lw, rs=0, rt=1,   offset=4 
+-- This is a lw instructioni. It loads r1 with data from
+-- data memory location 4. Data memory location 4 is 
+-- preloaded with 10, see DRAM.mif.
+--
+    002       :    10001100000000100000000000001000;
+--                 |____||___||___||______________|
+--                   |     |    |          |
+--                   lw, rs=0, rt=2,   offset=8 
+-- This is a lw instructioni. It loads r2 with data from
+-- data memory location 8. Data memory location 8 is 
+-- preloaded with 20, see DRAM.mif.
+--
+    003       :    00000000001000100001100000100000;
+--                 |____||___||___||___||___||____|
+--                   |     |    |    |    |    |         
+--                 R-type,rs=1,rt=2,rd=3,---,f=add 
+-- Add instructions (r-type, opcode=0, funct=100000) 
+-- add       => rd = rs + rt
+-- Therefore => r3 = r1 + r2
+--
+    004       :    10101100000000110000000000001100;
+--                 |____||___||___||______________|
+--                   |     |    |          |
+--                   sw, rs=0, rt=3,   offset=12 (0xC)
+-- This is a sw instruction. It stores r3 into data memory
+-- location 12 (0xC).
+--
+    005       :    00000000001000100010000000100010;
+--                 |____||___||___||___||___||____|
+--                   |     |    |    |    |    |         
+--                 R-type,rs=1,rt=2,rd=4,---,f=sub 
+-- sub instructions (r-type, opcode=0, funct=100010) 
+-- add       => rd = rs - rt
+-- Therefore => r4 = r1 - r2
+--
+    006       :    10101100000001000000000000010000;
+--                 |____||___||___||______________|
+--                   |     |    |          |
+--                   sw, rs=0, rt=4,   offset=16 (0x10)
+-- This is a sw instruction. It stores r4 into data memory
+-- location 16 (0x10).
+--
+    007       :    00000000010000010010100000100010;
+--                 |____||___||___||___||___||____|
+--                   |     |    |    |    |    |         
+--                 R-type,rs=2,rt=1,rd=5,---,f=sub 
+-- sub instructions (r-type, opcode=0, funct=100010) 
+-- add       => rd = rs - rt
+-- Therefore => r4 = r1 - r2
+--
+    008       :    10101100000001010000000000010100;
+--                 |____||___||___||______________|
+--                   |     |    |          |
+--                   sw, rs=0, rt=5,   offset=20 (0x14)
+-- This is a sw instruction. It stores r5 into data memory
+-- location 20 (0x14).
+--
+    009       :    00010000001000100000000000010100;
+--                 |____||___||___||______________|
+--                   |     |    |          |
+--                  beq, rs=1, rt=2,   offset=20 (0x14)
+-- This is a beq, branch if equal instruction
+-- branch to PC+20 if rs==rt => r1==r2
+    00A       :    00010000001001010000000000010100;
+--                 |____||___||___||______________|
+--                   |     |    |          |
+--                  beq, rs=1, rt=5,   offset=20 (0x14)
+-- This is a beq, branch if equal instruction
+-- branch to PC+20 if rs==rt => r1==r5
+END;

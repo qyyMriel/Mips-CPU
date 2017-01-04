@@ -1,0 +1,61 @@
+/*
+WARNING: Do NOT edit the input and output ports in this file in a text
+editor if you plan to continue editing the block that represents it in
+the Block Editor! File corruption is VERY likely to occur.
+*/
+/*
+Copyright (C) 1991-2013 Altera Corporation
+Your use of Altera Corporation's design tools, logic functions 
+and other software and tools, and its AMPP partner logic 
+functions, and any output files from any of the foregoing 
+(including device programming or simulation files), and any 
+associated documentation or information are expressly subject 
+to the terms and conditions of the Altera Program License 
+Subscription Agreement, Altera MegaCore Function License 
+Agreement, or other applicable license agreement, including, 
+without limitation, that your use is for the sole purpose of 
+programming logic devices manufactured by Altera and sold by 
+Altera or its authorized distributors.  Please refer to the 
+applicable agreement for further details.
+*/
+(header "symbol" (version "1.2"))
+(symbol
+	(rect 64 64 152 200)
+	(text "mux_2to1" (rect 8 1 63 12)(font "Arial" ))
+	(text "inst" (rect 8 112 26 123)(font "Arial" ))
+	(port
+		(pt 0 96)
+		(input)
+		(text "in_bus_1[31..0]" (rect 0 0 86 11)(font "Arial" ))
+		(text "1" (rect 21 91 28 102)(font "Arial" ))
+		(line (pt 0 96)(pt 16 96)(line_width 3))
+	)
+	(port
+		(pt 0 32)
+		(input)
+		(text "in_bus_0[31..0]" (rect 0 0 86 11)(font "Arial" ))
+		(text "0" (rect 21 27 28 38)(font "Arial" ))
+		(line (pt 0 32)(pt 16 32)(line_width 3))
+	)
+	(port
+		(pt 40 0)
+		(input)
+		(text "sel_input" (rect 0 0 50 11)(font "Arial" ))
+		(text "S" (rect 32 25 43 33)(font "Arial" )(vertical))
+		(line (pt 40 0)(pt 40 16))
+	)
+	(port
+		(pt 88 64)
+		(output)
+		(text "out_bus[31..0]" (rect -128 0 -49 11)(font "Arial" ))
+		(text "Y" (rect 57 59 65 70)(font "Arial" ))
+		(line (pt 88 64)(pt 72 64)(line_width 3))
+	)
+	(drawing
+		(line (pt 16 16)(pt 16 112))
+		(line (pt 48 16)(pt 72 64))
+		(line (pt 48 112)(pt 72 64))
+		(line (pt 16 112)(pt 48 112))
+		(line (pt 16 16)(pt 48 16))
+	)
+)

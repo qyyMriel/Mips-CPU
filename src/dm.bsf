@@ -1,0 +1,81 @@
+/*
+WARNING: Do NOT edit the input and output ports in this file in a text
+editor if you plan to continue editing the block that represents it in
+the Block Editor! File corruption is VERY likely to occur.
+*/
+/*
+Copyright (C) 1991-2015 Altera Corporation. All rights reserved.
+Your use of Altera Corporation's design tools, logic functions 
+and other software and tools, and its AMPP partner logic 
+functions, and any output files from any of the foregoing 
+(including device programming or simulation files), and any 
+associated documentation or information are expressly subject 
+to the terms and conditions of the Altera Program License 
+Subscription Agreement, the Altera Quartus Prime License Agreement,
+the Altera MegaCore Function License Agreement, or other 
+applicable license agreement, including, without limitation, 
+that your use is for the sole purpose of programming logic 
+devices manufactured by Altera and sold by Altera or its 
+authorized distributors.  Please refer to the applicable 
+agreement for further details.
+*/
+(header "symbol" (version "1.2"))
+(symbol
+	(rect 64 64 280 216)
+	(text "dm" (rect 8 0 26 14)(font "Arial" (font_size 8)))
+	(text "inst" (rect 16 136 49 147)(font "Arial" ))
+	(port
+		(pt 0 128)
+		(input)
+		(text "dm_data_in[31..0]" (rect 0 8 160 22)(font "Arial" (font_size 8)))
+		(text "dm_data_in[31..0]" (rect 21 123 181 137)(font "Arial" (font_size 8)))
+		(line (pt 0 128)(pt 16 128)(line_width 3))
+	)
+	(port
+		(pt 216 40)
+		(input)
+		(text "dm_wen" (rect 0 8 56 22)(font "Arial" (font_size 8)))
+		(text "dm_wen" (rect 148 32 204 46)(font "Arial" (font_size 8)))
+		(line (pt 216 40)(pt 198 40))
+	)
+	(port
+		(pt 0 96)
+		(input)
+		(text "dm_address_in[31..0]" (rect 0 8 188 22)(font "Arial" (font_size 8)))
+		(text "dm_address_in[31..0]" (rect 21 91 209 105)(font "Arial" (font_size 8)))
+		(line (pt 0 96)(pt 16 96)(line_width 3))
+	)
+	(port
+		(pt 0 24)
+		(input)
+		(text "clk" (rect 0 8 28 22)(font "Arial" (font_size 8)))
+		(text "clk" (rect 29 19 57 33)(font "Arial" (font_size 8)))
+		(line (pt 0 24)(pt 16 24))
+	)
+	(port
+		(pt 0 48)
+		(input)
+		(text "wrstb" (rect 24 32 71 46)(font "Arial" (font_size 8)))
+		(text "wrstb" (rect 24 40 71 54)(font "Arial" (font_size 8)))
+		(line (pt 0 48)(pt 16 48))
+	)
+	(port
+		(pt 216 128)
+		(output)
+		(text "dm_out[31..0]" (rect -40 8 82 22)(font "Arial" (font_size 8)))
+		(text "dm_out[31..0]" (rect 119 123 241 137)(font "Arial" (font_size 8)))
+		(line (pt 216 128)(pt 200 128)(line_width 3))
+	)
+	(drawing
+		(text "Data Memory" (rect 64 32 167 46)(font "Arial" (font_size 8)))
+		(line (pt 32 71)(pt 32 55))
+		(line (pt 184 55)(pt 184 71))
+		(line (pt 16 16)(pt 24 24))
+		(line (pt 24 24)(pt 16 32))
+		(rectangle (rect 16 15 200 55))
+		(rectangle (rect 16 71 200 87))
+		(rectangle (rect 16 87 200 103))
+		(rectangle (rect 16 103 200 119))
+		(rectangle (rect 16 119 200 135))
+	)
+)

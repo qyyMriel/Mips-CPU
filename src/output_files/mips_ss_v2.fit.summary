@@ -1,0 +1,16 @@
+Fitter Status : Successful - Thu Apr 07 00:49:57 2016
+Quartus Prime Version : 15.1.0 Build 185 10/21/2015 SJ Lite Edition
+Revision Name : mips_ss_v2
+Top-level Entity Name : mips_ss_v2
+Family : Cyclone IV E
+Device : EP4CE22F17C6
+Timing Models : Final
+Total logic elements : 7,978 / 22,320 ( 36 % )
+    Total combinational functions : 6,779 / 22,320 ( 30 % )
+    Dedicated logic registers : 3,184 / 22,320 ( 14 % )
+Total registers : 3184
+Total pins : 11 / 154 ( 7 % )
+Total virtual pins : 0
+Total memory bits : 131,328 / 608,256 ( 22 % )
+Embedded Multiplier 9-bit elements : 0 / 132 ( 0 % )
+Total PLLs : 1 / 4 ( 25 % )

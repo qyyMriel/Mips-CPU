@@ -1,0 +1,175 @@
+Archive Project report for mips_ss_v2
+Tue Apr 05 20:06:37 2016
+Quartus Prime Version 15.1.0 Build 185 10/21/2015 SJ Lite Edition
+
+
+---------------------
+; Table of Contents ;
+---------------------
+  1. Legal Notice
+  2. Archive Project Summary
+  3. Archive Project Messages
+  4. Files Archived
+
+
+
+----------------
+; Legal Notice ;
+----------------
+Copyright (C) 1991-2015 Altera Corporation. All rights reserved.
+Your use of Altera Corporation's design tools, logic functions 
+and other software and tools, and its AMPP partner logic 
+functions, and any output files from any of the foregoing 
+(including device programming or simulation files), and any 
+associated documentation or information are expressly subject 
+to the terms and conditions of the Altera Program License 
+Subscription Agreement, the Altera Quartus Prime License Agreement,
+the Altera MegaCore Function License Agreement, or other 
+applicable license agreement, including, without limitation, 
+that your use is for the sole purpose of programming logic 
+devices manufactured by Altera and sold by Altera or its 
+authorized distributors.  Please refer to the applicable 
+agreement for further details.
+
+
+
++----------------------------------------------------------------+
+; Archive Project Summary                                        ;
++------------------------+---------------------------------------+
+; Archive Project Status ; Successful - Tue Apr 05 20:06:37 2016 ;
+; Revision Name          ; mips_ss_v2                            ;
+; Top-level Entity Name  ; mips_ss_v2                            ;
+; Family                 ; Cyclone IV E                          ;
++------------------------+---------------------------------------+
+
+
++--------------------------+
+; Archive Project Messages ;
++--------------------------+
+Info: File Set 'Source control' contains:
+    Info: Project source and settings files
+    Info: Automatically detected source files
+Info: Archive will store files relative to the closest common parent directory
+Info (13213): Using common directory /Documents/NYU-2/mips_ss_v2-4_restored/
+Info: ----------------------------------------------------------
+Info: ----------------------------------------------------------
+Info: Generated archive '//vmware-host/Shared Folders/Documents/NYU-2/CA/mips_ss_v2_midterm.qar'
+Info: ----------------------------------------------------------
+Info: ----------------------------------------------------------
+Info: Generated report 'mips_ss_v2.archive.rpt'
+Info (23030): Evaluation of Tcl script c:/altera_lite/15.1/quartus/common/tcl/apps/qpm/qar.tcl was successful
+Info: Quartus Prime Shell was successful. 0 errors, 0 warnings
+    Info: Peak virtual memory: 650 megabytes
+    Info: Processing ended: Tue Apr 05 20:06:38 2016
+    Info: Elapsed time: 00:00:22
+    Info: Total CPU time (on all processors): 00:00:13
+
+
++------------------------------------+
+; Files Archived                     ;
++------------------------------------+
+; File Name                          ;
++------------------------------------+
+; altpll_1.bsf                       ;
+; altpll_1.cmp                       ;
+; altpll_1.ppf                       ;
+; altpll_1.qip                       ;
+; altpll_1.vhd                       ;
+; alu.bdf                            ;
+; alu_ctrl.bdf                       ;
+; and32.vhd                          ;
+; ctrl_bits_dbg.vhd                  ;
+; ctrl_dbg.vhd                       ;
+; ctrl_prb.bdf                       ;
+; ctrl_prob.bsf                      ;
+; ctrl_prob.cmp                      ;
+; ctrl_prob.qip                      ;
+; ctrl_prob.vhd                      ;
+; dbncr.bdf                          ;
+; demux_2to1.vhd                     ;
+; demux_4to1.vhd                     ;
+; dm.bdf                             ;
+; dm_ram.bsf                         ;
+; dm_ram.cmp                         ;
+; dm_ram.qip                         ;
+; dm_ram.vhd                         ;
+; dm_src.bsf                         ;
+; dm_src.cmp                         ;
+; dm_src.qip                         ;
+; dm_src.vhd                         ;
+; gnd_c.vhd                          ;
+; gui_front_2.tcl                    ;
+; im.bdf                             ;
+; im_ram.bsf                         ;
+; im_ram.cmp                         ;
+; im_ram.qip                         ;
+; im_ram.vhd                         ;
+; lpm_add.bsf                        ;
+; lpm_add.cmp                        ;
+; lpm_add.qip                        ;
+; lpm_add.vhd                        ;
+; lpm_add_stb.bsf                    ;
+; lpm_add_stb.cmp                    ;
+; lpm_add_stb.qip                    ;
+; lpm_add_stb.vhd                    ;
+; lpm_add_sub0.bsf                   ;
+; lpm_add_sub0.cmp                   ;
+; lpm_add_sub0.qip                   ;
+; lpm_add_sub0.vhd                   ;
+; lpm_clk_div_2.bsf                  ;
+; lpm_clk_div_2.cmp                  ;
+; lpm_clk_div_2.qip                  ;
+; lpm_clk_div_2.vhd                  ;
+; lpm_clk_div_cntr.bsf               ;
+; lpm_clk_div_cntr.cmp               ;
+; lpm_clk_div_cntr.qip               ;
+; lpm_clk_div_cntr.vhd               ;
+; lpm_compare0.bsf                   ;
+; lpm_compare0.cmp                   ;
+; lpm_compare0.qip                   ;
+; lpm_compare0.vhd                   ;
+; lpm_counter0.bsf                   ;
+; lpm_counter0.cmp                   ;
+; lpm_counter0.qip                   ;
+; lpm_counter0.vhd                   ;
+; main_ctrl.bdf                      ;
+; mips_ss_v2.bdf                     ;
+; mips_ss_v2.qpf                     ;
+; mips_ss_v2.qsf                     ;
+; mips_ss_v2.sdc                     ;
+; mips_ss_v2_assignment_defaults.qdf ;
+; mux5b_2to1.vhd                     ;
+; mux_2to1.vhd                       ;
+; mux_4to1.vhd                       ;
+; mux_8to1_32.vhd                    ;
+; or32.vhd                           ;
+; pc.bdf                             ;
+; pc_adder.bsf                       ;
+; pc_adder.cmp                       ;
+; pc_adder.qip                       ;
+; pc_adder.vhd                       ;
+; red_nor.v                          ;
+; red_or.v                           ;
+; reg4.bdf                           ;
+; reg16.bdf                          ;
+; rf.bdf                             ;
+; rf_src.bsf                         ;
+; rf_src.cmp                         ;
+; rf_src.qip                         ;
+; rf_src.vhd                         ;
+; sgn_extd.vhd                       ;
+; shft_two.vhd                       ;
+; signal_tap.bsf                     ;
+; signal_tap.cmp                     ;
+; signal_tap.qip                     ;
+; signal_tap.vhd                     ;
+; signal_tap_mod.bdf                 ;
+; stp_concat.vhd                     ;
+; strb_mod.bdf                       ;
+; strb_src.bsf                       ;
+; strb_src.cmp                       ;
+; strb_src.qip                       ;
+; strb_src.vhd                       ;
++------------------------------------+
+
+

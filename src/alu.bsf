@@ -1,0 +1,75 @@
+/*
+WARNING: Do NOT edit the input and output ports in this file in a text
+editor if you plan to continue editing the block that represents it in
+the Block Editor! File corruption is VERY likely to occur.
+*/
+/*
+Copyright (C) 1991-2013 Altera Corporation
+Your use of Altera Corporation's design tools, logic functions 
+and other software and tools, and its AMPP partner logic 
+functions, and any output files from any of the foregoing 
+(including device programming or simulation files), and any 
+associated documentation or information are expressly subject 
+to the terms and conditions of the Altera Program License 
+Subscription Agreement, Altera MegaCore Function License 
+Agreement, or other applicable license agreement, including, 
+without limitation, that your use is for the sole purpose of 
+programming logic devices manufactured by Altera and sold by 
+Altera or its authorized distributors.  Please refer to the 
+applicable agreement for further details.
+*/
+(header "symbol" (version "1.2"))
+(symbol
+	(rect 64 64 264 160)
+	(text "alu" (rect 5 0 21 12)(font "Arial" (font_size 8)))
+	(text "inst" (rect 8 81 26 92)(font "Arial" ))
+	(port
+		(pt 96 0)
+		(input)
+		(text "alu_op[2..0]" (rect 0 0 66 12)(font "Arial" (font_size 8)))
+		(text "alu_op[2..0]" (rect 88 9 100 75)(font "Arial" (font_size 8))(vertical))
+		(line (pt 96 0)(pt 96 17)(line_width 3))
+	)
+	(port
+		(pt 0 24)
+		(input)
+		(text "a_in[31..0]" (rect 0 0 59 12)(font "Arial" (font_size 8)))
+		(text "a_in[31..0]" (rect 21 11 80 23)(font "Arial" (font_size 8)))
+		(line (pt 0 24)(pt 16 24)(line_width 3))
+	)
+	(port
+		(pt 0 72)
+		(input)
+		(text "b_in[31..0]" (rect 0 0 59 12)(font "Arial" (font_size 8)))
+		(text "b_in[31..0]" (rect 21 75 80 87)(font "Arial" (font_size 8)))
+		(line (pt 0 72)(pt 16 72)(line_width 3))
+	)
+	(port
+		(pt 200 40)
+		(output)
+		(text "alu_out[31..0]" (rect 0 0 76 12)(font "Arial" (font_size 8)))
+		(text "alu_out[31..0]" (rect 119 19 195 31)(font "Arial" (font_size 8)))
+		(line (pt 200 40)(pt 184 40)(line_width 3))
+	)
+	(port
+		(pt 200 56)
+		(output)
+		(text "zero" (rect 0 0 25 12)(font "Arial" (font_size 8)))
+		(text "zero" (rect 154 43 179 55)(font "Arial" (font_size 8)))
+		(line (pt 200 56)(pt 184 56))
+	)
+	(drawing
+		(text "ALU" (rect 144 72 168 84)(font "Arial" (font_size 8))(border))
+		(line (pt 120 32)(pt 120 64)(color 0 0 0)(line_width 3))
+		(line (pt 72 56)(pt 72 96)(color 0 0 0)(line_width 3))
+		(line (pt 72 40)(pt 72 0)(color 0 0 0)(line_width 3))
+		(line (pt 72 56)(pt 88 48)(color 0 0 0)(line_width 3))
+		(line (pt 72 40)(pt 88 48)(color 0 0 0)(line_width 3))
+		(line (pt 72 0)(pt 120 32)(color 0 0 0)(line_width 3))
+		(line (pt 72 96)(pt 120 64)(color 0 0 0)(line_width 3))
+		(line (pt 183 40)(pt 121 40)(color 0 0 0)(line_width 3))
+		(line (pt 184 56)(pt 120 56))
+		(line (pt 16 24)(pt 71 24)(color 0 0 0)(line_width 3))
+		(line (pt 16 72)(pt 71 72)(color 0 0 0)(line_width 3))
+	)
+)

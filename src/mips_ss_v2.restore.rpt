@@ -1,0 +1,211 @@
+Restore Archived Project report for mips_ss_v2
+Thu Apr 07 01:00:43 2016
+Quartus Prime Version 15.1.0 Build 185 10/21/2015 SJ Lite Edition
+
+
+---------------------
+; Table of Contents ;
+---------------------
+  1. Legal Notice
+  2. Restore Archived Project Summary
+  3. Restore Archived Project Messages
+  4. Files Restored
+  5. Files Not Restored
+
+
+
+----------------
+; Legal Notice ;
+----------------
+Copyright (C) 1991-2015 Altera Corporation. All rights reserved.
+Your use of Altera Corporation's design tools, logic functions 
+and other software and tools, and its AMPP partner logic 
+functions, and any output files from any of the foregoing 
+(including device programming or simulation files), and any 
+associated documentation or information are expressly subject 
+to the terms and conditions of the Altera Program License 
+Subscription Agreement, the Altera Quartus Prime License Agreement,
+the Altera MegaCore Function License Agreement, or other 
+applicable license agreement, including, without limitation, 
+that your use is for the sole purpose of programming logic 
+devices manufactured by Altera and sold by Altera or its 
+authorized distributors.  Please refer to the applicable 
+agreement for further details.
+
+
+
++-------------------------------------------------------------------------+
+; Restore Archived Project Summary                                        ;
++---------------------------------+---------------------------------------+
+; Restore Archived Project Status ; Successful - Thu Apr 07 01:00:43 2016 ;
+; Revision Name                   ; mips_ss_v2                            ;
+; Top-level Entity Name           ; mips_ss_v2                            ;
+; Family                          ; Cyclone IV E                          ;
++---------------------------------+---------------------------------------+
+
+
++-----------------------------------+
+; Restore Archived Project Messages ;
++-----------------------------------+
+Info: Successfully restored '//vmware-host/Shared Folders/Documents/NYU-2/CA/Midterm_YiQin/mips_ss_v2-4.qar' into the '//vmware-host/Shared Folders/Documents/NYU-2/CA/Midterm_YiQin/mips_ss_v2-4_restored/' directory
+Info: Generated report 'mips_ss_v2.restore.rpt'
+Info (23030): Evaluation of Tcl script c:/altera_lite/15.1/quartus/common/tcl/apps/qpm/qar.tcl was successful
+Info: Quartus Prime Shell was successful. 0 errors, 138 warnings
+    Info: Peak virtual memory: 650 megabytes
+    Info: Processing ended: Thu Apr 07 01:00:45 2016
+    Info: Elapsed time: 00:00:27
+    Info: Total CPU time (on all processors): 00:00:18
+
+
++----------------+
+; Files Restored ;
++----------------+
+; File Name      ;
++----------------+
+
+
++------------------------------------+
+; Files Not Restored                 ;
++------------------------------------+
+; File Name                          ;
++------------------------------------+
+; qar_info.json                      ;
+; altpll_1.bsf                       ;
+; altpll_1.cmp                       ;
+; altpll_1.ppf                       ;
+; altpll_1.qip                       ;
+; altpll_1.vhd                       ;
+; alu.bdf                            ;
+; alu.bsf                            ;
+; alu_ctrl.bdf                       ;
+; alu_ctrl.bsf                       ;
+; and32.bsf                          ;
+; and32.vhd                          ;
+; ctrl_bits_dbg.bsf                  ;
+; ctrl_bits_dbg.vhd                  ;
+; ctrl_dbg.bsf                       ;
+; ctrl_dbg.vhd                       ;
+; ctrl_prb.bdf                       ;
+; ctrl_prb.bsf                       ;
+; ctrl_prob.bsf                      ;
+; ctrl_prob.cmp                      ;
+; ctrl_prob.qip                      ;
+; ctrl_prob.vhd                      ;
+; dbncr.bdf                          ;
+; dbncr.bsf                          ;
+; demux_2to1.bsf                     ;
+; demux_2to1.vhd                     ;
+; demux_4to1.bsf                     ;
+; demux_4to1.vhd                     ;
+; dm.bdf                             ;
+; dm.bsf                             ;
+; dm_ram.bsf                         ;
+; dm_ram.cmp                         ;
+; dm_ram.qip                         ;
+; dm_ram.vhd                         ;
+; dm_src.bsf                         ;
+; dm_src.cmp                         ;
+; dm_src.qip                         ;
+; dm_src.vhd                         ;
+; dram_add.mif                       ;
+; gnd_c.bsf                          ;
+; gnd_c.vhd                          ;
+; gui_front_2.tcl                    ;
+; im.bdf                             ;
+; im.bsf                             ;
+; im_ram.bsf                         ;
+; im_ram.cmp                         ;
+; im_ram.qip                         ;
+; im_ram.vhd                         ;
+; iram_add.mif                       ;
+; iram_beq.mif                       ;
+; iram_example2.mif                  ;
+; iram_example3.mif                  ;
+; lpm_add.bsf                        ;
+; lpm_add.cmp                        ;
+; lpm_add.qip                        ;
+; lpm_add.vhd                        ;
+; lpm_add_stb.bsf                    ;
+; lpm_add_stb.cmp                    ;
+; lpm_add_stb.qip                    ;
+; lpm_add_stb.vhd                    ;
+; lpm_add_sub0.bsf                   ;
+; lpm_add_sub0.cmp                   ;
+; lpm_add_sub0.qip                   ;
+; lpm_add_sub0.vhd                   ;
+; lpm_clk_div_2.bsf                  ;
+; lpm_clk_div_2.cmp                  ;
+; lpm_clk_div_2.qip                  ;
+; lpm_clk_div_2.vhd                  ;
+; lpm_clk_div_cntr.bsf               ;
+; lpm_clk_div_cntr.cmp               ;
+; lpm_clk_div_cntr.qip               ;
+; lpm_clk_div_cntr.vhd               ;
+; lpm_compare0.bsf                   ;
+; lpm_compare0.cmp                   ;
+; lpm_compare0.qip                   ;
+; lpm_compare0.vhd                   ;
+; lpm_counter0.bsf                   ;
+; lpm_counter0.cmp                   ;
+; lpm_counter0.qip                   ;
+; lpm_counter0.vhd                   ;
+; main_ctrl.bdf                      ;
+; main_ctrl.bsf                      ;
+; mips_ss_v2.bdf                     ;
+; mips_ss_v2.qpf                     ;
+; mips_ss_v2.qsf                     ;
+; mips_ss_v2.sdc                     ;
+; mips_ss_v2.stp                     ;
+; mips_ss_v2_assignment_defaults.qdf ;
+; mips_ss_v2_sch.gif                 ;
+; mux5b_2to1.bsf                     ;
+; mux5b_2to1.vhd                     ;
+; mux_2to1.bsf                       ;
+; mux_2to1.vhd                       ;
+; mux_4to1.bsf                       ;
+; mux_4to1.vhd                       ;
+; mux_8to1_32.bsf                    ;
+; mux_8to1_32.vhd                    ;
+; nyu_logo.gif                       ;
+; or32.bsf                           ;
+; or32.vhd                           ;
+; pc.bdf                             ;
+; pc.bsf                             ;
+; pc_adder.bsf                       ;
+; pc_adder.cmp                       ;
+; pc_adder.qip                       ;
+; pc_adder.vhd                       ;
+; red_nor.bsf                        ;
+; red_nor.v                          ;
+; reg16.bdf                          ;
+; reg16.bsf                          ;
+; reg4.bdf                           ;
+; reg4.bsf                           ;
+; rf.bdf                             ;
+; rf.bsf                             ;
+; rf_src.bsf                         ;
+; rf_src.cmp                         ;
+; rf_src.qip                         ;
+; rf_src.vhd                         ;
+; scr3.jpg                           ;
+; sgn_extd.bsf                       ;
+; sgn_extd.vhd                       ;
+; shft_two.bsf                       ;
+; shft_two.vhd                       ;
+; signal_tap.bsf                     ;
+; signal_tap.cmp                     ;
+; signal_tap.qip                     ;
+; signal_tap.vhd                     ;
+; signal_tap_mod.bdf                 ;
+; signal_tap_mod.bsf                 ;
+; stp_concat.bsf                     ;
+; stp_concat.vhd                     ;
+; strb_mod.bdf                       ;
+; strb_mod.bsf                       ;
+; strb_src.bsf                       ;
+; strb_src.cmp                       ;
+; strb_src.qip                       ;
+; strb_src.vhd                       ;
++------------------------------------+
+
+

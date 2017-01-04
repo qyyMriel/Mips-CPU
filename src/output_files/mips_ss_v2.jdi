@@ -1,0 +1,745 @@
+<sld_project_info>
+  <project>
+    <hash md5_digest_80b="5adf3070e33f89af32a3"/>
+  </project>
+  <file_info>
+    <file device="EP4CE22F17C6" path="mips_ss_v2.sof" usercode="0xFFFFFFFF"/>
+  </file_info>
+  <hub_info hub_ir_width="10" ir_width="10" node_addr_width="3" node_count="5"/>
+  <node_info>
+    <node hpath="strb_mod:strb_inst|strb_src:jtag_strb_src|altsource_probe:altsource_probe_component" instance_id="0" mfg_id="110" node_id="9" sld_node_info="0x486E00" version="0">
+      <parameters>
+        <parameter name="lpm_type" type="string" value="altsource_probe"/>
+        <parameter name="lpm_hint" type="string" value="UNUSED"/>
+        <parameter name="sld_auto_instance_index" type="string" value="YES"/>
+        <parameter name="sld_instance_index" type="dec" value="0"/>
+        <parameter name="SLD_NODE_INFO" type="dec" value="4746752"/>
+        <parameter name="sld_ir_width" type="dec" value="4"/>
+        <parameter name="instance_id" type="string" value="Sb_i"/>
+        <parameter name="probe_width" type="dec" value="0"/>
+        <parameter name="source_width" type="dec" value="10"/>
+        <parameter name="source_initial_value" type="string" value=" 0"/>
+        <parameter name="enable_metastability" type="string" value="YES"/>
+        <parameter name=" constraint(source)" type="string" value="9 downto 0"/>
+        <parameter name=" constraint(sld_auto_instance_index)" type="string" value="1 to 3"/>
+        <parameter name=" constraint(source_initial_value)" type="string" value="1 to 2"/>
+        <parameter name=" constraint(enable_metastability)" type="string" value="1 to 3"/>
+        <parameter name=" constraint(lpm_type)" type="string" value="1 to 15"/>
+        <parameter name=" constraint(instance_id)" type="string" value="1 to 4"/>
+      </parameters>
+      <inputs>
+        <port name="source_clk" source="strb_mod:strb_inst|strb_src:jtag_strb_src|source_clk"/>
+        <port name="jtag.bp.strb_inst_jtag_strb_src_altsource_probe_component_raw_tck" source="jtag.bp.strb_inst_jtag_strb_src_altsource_probe_component_raw_tck"/>
+        <port name="jtag.bp.strb_inst_jtag_strb_src_altsource_probe_component_tdi" source="jtag.bp.strb_inst_jtag_strb_src_altsource_probe_component_tdi"/>
+        <port name="jtag.bp.strb_inst_jtag_strb_src_altsource_probe_component_usr1" source="jtag.bp.strb_inst_jtag_strb_src_altsource_probe_component_usr1"/>
+        <port name="jtag.bp.strb_inst_jtag_strb_src_altsource_probe_component_jtag_state_cdr" source="jtag.bp.strb_inst_jtag_strb_src_altsource_probe_component_jtag_state_cdr"/>
+        <port name="jtag.bp.strb_inst_jtag_strb_src_altsource_probe_component_jtag_state_sdr" source="jtag.bp.strb_inst_jtag_strb_src_altsource_probe_component_jtag_state_sdr"/>
+        <port name="jtag.bp.strb_inst_jtag_strb_src_altsource_probe_component_jtag_state_e1dr" source="jtag.bp.strb_inst_jtag_strb_src_altsource_probe_component_jtag_state_e1dr"/>
+        <port name="jtag.bp.strb_inst_jtag_strb_src_altsource_probe_component_jtag_state_udr" source="jtag.bp.strb_inst_jtag_strb_src_altsource_probe_component_jtag_state_udr"/>
+        <port name="jtag.bp.strb_inst_jtag_strb_src_altsource_probe_component_jtag_state_cir" source="jtag.bp.strb_inst_jtag_strb_src_altsource_probe_component_jtag_state_cir"/>
+        <port name="jtag.bp.strb_inst_jtag_strb_src_altsource_probe_component_jtag_state_uir" source="jtag.bp.strb_inst_jtag_strb_src_altsource_probe_component_jtag_state_uir"/>
+        <port name="jtag.bp.strb_inst_jtag_strb_src_altsource_probe_component_jtag_state_tlr" source="jtag.bp.strb_inst_jtag_strb_src_altsource_probe_component_jtag_state_tlr"/>
+        <port name="jtag.bp.strb_inst_jtag_strb_src_altsource_probe_component_clr" source="jtag.bp.strb_inst_jtag_strb_src_altsource_probe_component_clr"/>
+        <port name="jtag.bp.strb_inst_jtag_strb_src_altsource_probe_component_ena" source="jtag.bp.strb_inst_jtag_strb_src_altsource_probe_component_ena"/>
+        <port name="jtag.bp.strb_inst_jtag_strb_src_altsource_probe_component_ir_in_0_" source="jtag.bp.strb_inst_jtag_strb_src_altsource_probe_component_ir_in_0_"/>
+        <port name="jtag.bp.strb_inst_jtag_strb_src_altsource_probe_component_ir_in_1_" source="jtag.bp.strb_inst_jtag_strb_src_altsource_probe_component_ir_in_1_"/>
+        <port name="jtag.bp.strb_inst_jtag_strb_src_altsource_probe_component_ir_in_2_" source="jtag.bp.strb_inst_jtag_strb_src_altsource_probe_component_ir_in_2_"/>
+        <port name="jtag.bp.strb_inst_jtag_strb_src_altsource_probe_component_ir_in_3_" source="jtag.bp.strb_inst_jtag_strb_src_altsource_probe_component_ir_in_3_"/>
+      </inputs>
+      <outputs>
+        <port name="source[0]"/>
+        <port name="source[1]"/>
+        <port name="source[2]"/>
+        <port name="source[3]"/>
+        <port name="source[4]"/>
+        <port name="source[5]"/>
+        <port name="source[6]"/>
+        <port name="source[7]"/>
+        <port name="source[8]"/>
+        <port name="source[9]"/>
+        <port name="jtag.bp.strb_inst_jtag_strb_src_altsource_probe_component_ir_out_0_"/>
+        <port name="jtag.bp.strb_inst_jtag_strb_src_altsource_probe_component_ir_out_1_"/>
+        <port name="jtag.bp.strb_inst_jtag_strb_src_altsource_probe_component_ir_out_2_"/>
+        <port name="jtag.bp.strb_inst_jtag_strb_src_altsource_probe_component_ir_out_3_"/>
+        <port name="jtag.bp.strb_inst_jtag_strb_src_altsource_probe_component_tdo"/>
+      </outputs>
+    </node>
+    <node hpath="im:im_inst|im_ram:im_ram_function|altsyncram:altsyncram_component|altsyncram_j3s3:auto_generated|sld_mod_ram_rom:mgl_prim2" instance_id="0" mfg_id="110" node_id="3" sld_node_info="0x8186E00" version="1">
+      <parameters>
+        <parameter name="SLD_NODE_INFO" type="dec" value="135818752"/>
+        <parameter name="SLD_AUTO_INSTANCE_INDEX" type="string" value="yes"/>
+        <parameter name="SLD_IP_VERSION" type="dec" value="1"/>
+        <parameter name="SLD_IP_MINOR_VERSION" type="dec" value="3"/>
+        <parameter name="SLD_COMMON_IP_VERSION" type="dec" value="0"/>
+        <parameter name="width_word" type="unknown" value="32"/>
+        <parameter name="numwords" type="unknown" value="1024"/>
+        <parameter name="widthad" type="unknown" value="10"/>
+        <parameter name="shift_count_bits" type="unknown" value="6"/>
+        <parameter name="cvalue" type="unknown" value="00000000000000000000000000000000"/>
+        <parameter name="is_data_in_ram" type="unknown" value="1"/>
+        <parameter name="is_readable" type="unknown" value="1"/>
+        <parameter name="node_name" type="unknown" value="1230127437"/>
+      </parameters>
+      <inputs>
+        <port name="data_read[0]" source="im:im_inst|im_ram:im_ram_function|altsyncram:altsyncram_component|altsyncram_j3s3:auto_generated|altsyncram_rip2:altsyncram1|q_b[0]"/>
+        <port name="data_read[1]" source="im:im_inst|im_ram:im_ram_function|altsyncram:altsyncram_component|altsyncram_j3s3:auto_generated|altsyncram_rip2:altsyncram1|q_b[1]"/>
+        <port name="data_read[2]" source="im:im_inst|im_ram:im_ram_function|altsyncram:altsyncram_component|altsyncram_j3s3:auto_generated|altsyncram_rip2:altsyncram1|q_b[2]"/>
+        <port name="data_read[3]" source="im:im_inst|im_ram:im_ram_function|altsyncram:altsyncram_component|altsyncram_j3s3:auto_generated|altsyncram_rip2:altsyncram1|q_b[3]"/>
+        <port name="data_read[4]" source="im:im_inst|im_ram:im_ram_function|altsyncram:altsyncram_component|altsyncram_j3s3:auto_generated|altsyncram_rip2:altsyncram1|q_b[4]"/>
+        <port name="data_read[5]" source="im:im_inst|im_ram:im_ram_function|altsyncram:altsyncram_component|altsyncram_j3s3:auto_generated|altsyncram_rip2:altsyncram1|q_b[5]"/>
+        <port name="data_read[6]" source="im:im_inst|im_ram:im_ram_function|altsyncram:altsyncram_component|altsyncram_j3s3:auto_generated|altsyncram_rip2:altsyncram1|q_b[6]"/>
+        <port name="data_read[7]" source="im:im_inst|im_ram:im_ram_function|altsyncram:altsyncram_component|altsyncram_j3s3:auto_generated|altsyncram_rip2:altsyncram1|q_b[7]"/>
+        <port name="data_read[8]" source="im:im_inst|im_ram:im_ram_function|altsyncram:altsyncram_component|altsyncram_j3s3:auto_generated|altsyncram_rip2:altsyncram1|q_b[8]"/>
+        <port name="data_read[9]" source="im:im_inst|im_ram:im_ram_function|altsyncram:altsyncram_component|altsyncram_j3s3:auto_generated|altsyncram_rip2:altsyncram1|q_b[9]"/>
+        <port name="data_read[10]" source="im:im_inst|im_ram:im_ram_function|altsyncram:altsyncram_component|altsyncram_j3s3:auto_generated|altsyncram_rip2:altsyncram1|q_b[10]"/>
+        <port name="data_read[11]" source="im:im_inst|im_ram:im_ram_function|altsyncram:altsyncram_component|altsyncram_j3s3:auto_generated|altsyncram_rip2:altsyncram1|q_b[11]"/>
+        <port name="data_read[12]" source="im:im_inst|im_ram:im_ram_function|altsyncram:altsyncram_component|altsyncram_j3s3:auto_generated|altsyncram_rip2:altsyncram1|q_b[12]"/>
+        <port name="data_read[13]" source="im:im_inst|im_ram:im_ram_function|altsyncram:altsyncram_component|altsyncram_j3s3:auto_generated|altsyncram_rip2:altsyncram1|q_b[13]"/>
+        <port name="data_read[14]" source="im:im_inst|im_ram:im_ram_function|altsyncram:altsyncram_component|altsyncram_j3s3:auto_generated|altsyncram_rip2:altsyncram1|q_b[14]"/>
+        <port name="data_read[15]" source="im:im_inst|im_ram:im_ram_function|altsyncram:altsyncram_component|altsyncram_j3s3:auto_generated|altsyncram_rip2:altsyncram1|q_b[15]"/>
+        <port name="data_read[16]" source="im:im_inst|im_ram:im_ram_function|altsyncram:altsyncram_component|altsyncram_j3s3:auto_generated|altsyncram_rip2:altsyncram1|q_b[16]"/>
+        <port name="data_read[17]" source="im:im_inst|im_ram:im_ram_function|altsyncram:altsyncram_component|altsyncram_j3s3:auto_generated|altsyncram_rip2:altsyncram1|q_b[17]"/>
+        <port name="data_read[18]" source="im:im_inst|im_ram:im_ram_function|altsyncram:altsyncram_component|altsyncram_j3s3:auto_generated|altsyncram_rip2:altsyncram1|q_b[18]"/>
+        <port name="data_read[19]" source="im:im_inst|im_ram:im_ram_function|altsyncram:altsyncram_component|altsyncram_j3s3:auto_generated|altsyncram_rip2:altsyncram1|q_b[19]"/>
+        <port name="data_read[20]" source="im:im_inst|im_ram:im_ram_function|altsyncram:altsyncram_component|altsyncram_j3s3:auto_generated|altsyncram_rip2:altsyncram1|q_b[20]"/>
+        <port name="data_read[21]" source="im:im_inst|im_ram:im_ram_function|altsyncram:altsyncram_component|altsyncram_j3s3:auto_generated|altsyncram_rip2:altsyncram1|q_b[21]"/>
+        <port name="data_read[22]" source="im:im_inst|im_ram:im_ram_function|altsyncram:altsyncram_component|altsyncram_j3s3:auto_generated|altsyncram_rip2:altsyncram1|q_b[22]"/>
+        <port name="data_read[23]" source="im:im_inst|im_ram:im_ram_function|altsyncram:altsyncram_component|altsyncram_j3s3:auto_generated|altsyncram_rip2:altsyncram1|q_b[23]"/>
+        <port name="data_read[24]" source="im:im_inst|im_ram:im_ram_function|altsyncram:altsyncram_component|altsyncram_j3s3:auto_generated|altsyncram_rip2:altsyncram1|q_b[24]"/>
+        <port name="data_read[25]" source="im:im_inst|im_ram:im_ram_function|altsyncram:altsyncram_component|altsyncram_j3s3:auto_generated|altsyncram_rip2:altsyncram1|q_b[25]"/>
+        <port name="data_read[26]" source="im:im_inst|im_ram:im_ram_function|altsyncram:altsyncram_component|altsyncram_j3s3:auto_generated|altsyncram_rip2:altsyncram1|q_b[26]"/>
+        <port name="data_read[27]" source="im:im_inst|im_ram:im_ram_function|altsyncram:altsyncram_component|altsyncram_j3s3:auto_generated|altsyncram_rip2:altsyncram1|q_b[27]"/>
+        <port name="data_read[28]" source="im:im_inst|im_ram:im_ram_function|altsyncram:altsyncram_component|altsyncram_j3s3:auto_generated|altsyncram_rip2:altsyncram1|q_b[28]"/>
+        <port name="data_read[29]" source="im:im_inst|im_ram:im_ram_function|altsyncram:altsyncram_component|altsyncram_j3s3:auto_generated|altsyncram_rip2:altsyncram1|q_b[29]"/>
+        <port name="data_read[30]" source="im:im_inst|im_ram:im_ram_function|altsyncram:altsyncram_component|altsyncram_j3s3:auto_generated|altsyncram_rip2:altsyncram1|q_b[30]"/>
+        <port name="data_read[31]" source="im:im_inst|im_ram:im_ram_function|altsyncram:altsyncram_component|altsyncram_j3s3:auto_generated|altsyncram_rip2:altsyncram1|q_b[31]"/>
+        <port name="jtag.bp.im_inst_im_ram_function_altsyncram_component_auto_generated_mgl_prim2_raw_tck" source="jtag.bp.im_inst_im_ram_function_altsyncram_component_auto_generated_mgl_prim2_raw_tck"/>
+        <port name="jtag.bp.im_inst_im_ram_function_altsyncram_component_auto_generated_mgl_prim2_tdi" source="jtag.bp.im_inst_im_ram_function_altsyncram_component_auto_generated_mgl_prim2_tdi"/>
+        <port name="jtag.bp.im_inst_im_ram_function_altsyncram_component_auto_generated_mgl_prim2_usr1" source="jtag.bp.im_inst_im_ram_function_altsyncram_component_auto_generated_mgl_prim2_usr1"/>
+        <port name="jtag.bp.im_inst_im_ram_function_altsyncram_component_auto_generated_mgl_prim2_jtag_state_cdr" source="jtag.bp.im_inst_im_ram_function_altsyncram_component_auto_generated_mgl_prim2_jtag_state_cdr"/>
+        <port name="jtag.bp.im_inst_im_ram_function_altsyncram_component_auto_generated_mgl_prim2_jtag_state_sdr" source="jtag.bp.im_inst_im_ram_function_altsyncram_component_auto_generated_mgl_prim2_jtag_state_sdr"/>
+        <port name="jtag.bp.im_inst_im_ram_function_altsyncram_component_auto_generated_mgl_prim2_jtag_state_e1dr" source="jtag.bp.im_inst_im_ram_function_altsyncram_component_auto_generated_mgl_prim2_jtag_state_e1dr"/>
+        <port name="jtag.bp.im_inst_im_ram_function_altsyncram_component_auto_generated_mgl_prim2_jtag_state_udr" source="jtag.bp.im_inst_im_ram_function_altsyncram_component_auto_generated_mgl_prim2_jtag_state_udr"/>
+        <port name="jtag.bp.im_inst_im_ram_function_altsyncram_component_auto_generated_mgl_prim2_jtag_state_uir" source="jtag.bp.im_inst_im_ram_function_altsyncram_component_auto_generated_mgl_prim2_jtag_state_uir"/>
+        <port name="jtag.bp.im_inst_im_ram_function_altsyncram_component_auto_generated_mgl_prim2_clr" source="jtag.bp.im_inst_im_ram_function_altsyncram_component_auto_generated_mgl_prim2_clr"/>
+        <port name="jtag.bp.im_inst_im_ram_function_altsyncram_component_auto_generated_mgl_prim2_ena" source="jtag.bp.im_inst_im_ram_function_altsyncram_component_auto_generated_mgl_prim2_ena"/>
+        <port name="jtag.bp.im_inst_im_ram_function_altsyncram_component_auto_generated_mgl_prim2_ir_in_0_" source="jtag.bp.im_inst_im_ram_function_altsyncram_component_auto_generated_mgl_prim2_ir_in_0_"/>
+        <port name="jtag.bp.im_inst_im_ram_function_altsyncram_component_auto_generated_mgl_prim2_ir_in_1_" source="jtag.bp.im_inst_im_ram_function_altsyncram_component_auto_generated_mgl_prim2_ir_in_1_"/>
+        <port name="jtag.bp.im_inst_im_ram_function_altsyncram_component_auto_generated_mgl_prim2_ir_in_2_" source="jtag.bp.im_inst_im_ram_function_altsyncram_component_auto_generated_mgl_prim2_ir_in_2_"/>
+        <port name="jtag.bp.im_inst_im_ram_function_altsyncram_component_auto_generated_mgl_prim2_ir_in_3_" source="jtag.bp.im_inst_im_ram_function_altsyncram_component_auto_generated_mgl_prim2_ir_in_3_"/>
+        <port name="jtag.bp.im_inst_im_ram_function_altsyncram_component_auto_generated_mgl_prim2_ir_in_4_" source="jtag.bp.im_inst_im_ram_function_altsyncram_component_auto_generated_mgl_prim2_ir_in_4_"/>
+      </inputs>
+      <outputs>
+        <port name="tck_usr"/>
+        <port name="address[0]"/>
+        <port name="address[1]"/>
+        <port name="address[2]"/>
+        <port name="address[3]"/>
+        <port name="address[4]"/>
+        <port name="address[5]"/>
+        <port name="address[6]"/>
+        <port name="address[7]"/>
+        <port name="address[8]"/>
+        <port name="address[9]"/>
+        <port name="enable_write"/>
+        <port name="data_write[0]"/>
+        <port name="data_write[1]"/>
+        <port name="data_write[2]"/>
+        <port name="data_write[3]"/>
+        <port name="data_write[4]"/>
+        <port name="data_write[5]"/>
+        <port name="data_write[6]"/>
+        <port name="data_write[7]"/>
+        <port name="data_write[8]"/>
+        <port name="data_write[9]"/>
+        <port name="data_write[10]"/>
+        <port name="data_write[11]"/>
+        <port name="data_write[12]"/>
+        <port name="data_write[13]"/>
+        <port name="data_write[14]"/>
+        <port name="data_write[15]"/>
+        <port name="data_write[16]"/>
+        <port name="data_write[17]"/>
+        <port name="data_write[18]"/>
+        <port name="data_write[19]"/>
+        <port name="data_write[20]"/>
+        <port name="data_write[21]"/>
+        <port name="data_write[22]"/>
+        <port name="data_write[23]"/>
+        <port name="data_write[24]"/>
+        <port name="data_write[25]"/>
+        <port name="data_write[26]"/>
+        <port name="data_write[27]"/>
+        <port name="data_write[28]"/>
+        <port name="data_write[29]"/>
+        <port name="data_write[30]"/>
+        <port name="data_write[31]"/>
+        <port name="jtag.bp.im_inst_im_ram_function_altsyncram_component_auto_generated_mgl_prim2_ir_out_0_"/>
+        <port name="jtag.bp.im_inst_im_ram_function_altsyncram_component_auto_generated_mgl_prim2_ir_out_1_"/>
+        <port name="jtag.bp.im_inst_im_ram_function_altsyncram_component_auto_generated_mgl_prim2_ir_out_2_"/>
+        <port name="jtag.bp.im_inst_im_ram_function_altsyncram_component_auto_generated_mgl_prim2_ir_out_3_"/>
+        <port name="jtag.bp.im_inst_im_ram_function_altsyncram_component_auto_generated_mgl_prim2_ir_out_4_"/>
+        <port name="jtag.bp.im_inst_im_ram_function_altsyncram_component_auto_generated_mgl_prim2_tdo"/>
+      </outputs>
+    </node>
+    <node hpath="dm:dm_inst|dm_ram:inst|altsyncram:altsyncram_component|altsyncram_e3s3:auto_generated|sld_mod_ram_rom:mgl_prim2" instance_id="1" mfg_id="110" node_id="3" sld_node_info="0x8186E01" version="1">
+      <parameters>
+        <parameter name="SLD_NODE_INFO" type="dec" value="135818752"/>
+        <parameter name="SLD_AUTO_INSTANCE_INDEX" type="string" value="yes"/>
+        <parameter name="SLD_IP_VERSION" type="dec" value="1"/>
+        <parameter name="SLD_IP_MINOR_VERSION" type="dec" value="3"/>
+        <parameter name="SLD_COMMON_IP_VERSION" type="dec" value="0"/>
+        <parameter name="width_word" type="unknown" value="32"/>
+        <parameter name="numwords" type="unknown" value="1024"/>
+        <parameter name="widthad" type="unknown" value="10"/>
+        <parameter name="shift_count_bits" type="unknown" value="6"/>
+        <parameter name="cvalue" type="unknown" value="00000000000000000000000000000000"/>
+        <parameter name="is_data_in_ram" type="unknown" value="1"/>
+        <parameter name="is_readable" type="unknown" value="1"/>
+        <parameter name="node_name" type="unknown" value="1146241357"/>
+      </parameters>
+      <inputs>
+        <port name="data_read[0]" source="dm:dm_inst|dm_ram:inst|altsyncram:altsyncram_component|altsyncram_e3s3:auto_generated|altsyncram_rip2:altsyncram1|q_b[0]"/>
+        <port name="data_read[1]" source="dm:dm_inst|dm_ram:inst|altsyncram:altsyncram_component|altsyncram_e3s3:auto_generated|altsyncram_rip2:altsyncram1|q_b[1]"/>
+        <port name="data_read[2]" source="dm:dm_inst|dm_ram:inst|altsyncram:altsyncram_component|altsyncram_e3s3:auto_generated|altsyncram_rip2:altsyncram1|q_b[2]"/>
+        <port name="data_read[3]" source="dm:dm_inst|dm_ram:inst|altsyncram:altsyncram_component|altsyncram_e3s3:auto_generated|altsyncram_rip2:altsyncram1|q_b[3]"/>
+        <port name="data_read[4]" source="dm:dm_inst|dm_ram:inst|altsyncram:altsyncram_component|altsyncram_e3s3:auto_generated|altsyncram_rip2:altsyncram1|q_b[4]"/>
+        <port name="data_read[5]" source="dm:dm_inst|dm_ram:inst|altsyncram:altsyncram_component|altsyncram_e3s3:auto_generated|altsyncram_rip2:altsyncram1|q_b[5]"/>
+        <port name="data_read[6]" source="dm:dm_inst|dm_ram:inst|altsyncram:altsyncram_component|altsyncram_e3s3:auto_generated|altsyncram_rip2:altsyncram1|q_b[6]"/>
+        <port name="data_read[7]" source="dm:dm_inst|dm_ram:inst|altsyncram:altsyncram_component|altsyncram_e3s3:auto_generated|altsyncram_rip2:altsyncram1|q_b[7]"/>
+        <port name="data_read[8]" source="dm:dm_inst|dm_ram:inst|altsyncram:altsyncram_component|altsyncram_e3s3:auto_generated|altsyncram_rip2:altsyncram1|q_b[8]"/>
+        <port name="data_read[9]" source="dm:dm_inst|dm_ram:inst|altsyncram:altsyncram_component|altsyncram_e3s3:auto_generated|altsyncram_rip2:altsyncram1|q_b[9]"/>
+        <port name="data_read[10]" source="dm:dm_inst|dm_ram:inst|altsyncram:altsyncram_component|altsyncram_e3s3:auto_generated|altsyncram_rip2:altsyncram1|q_b[10]"/>
+        <port name="data_read[11]" source="dm:dm_inst|dm_ram:inst|altsyncram:altsyncram_component|altsyncram_e3s3:auto_generated|altsyncram_rip2:altsyncram1|q_b[11]"/>
+        <port name="data_read[12]" source="dm:dm_inst|dm_ram:inst|altsyncram:altsyncram_component|altsyncram_e3s3:auto_generated|altsyncram_rip2:altsyncram1|q_b[12]"/>
+        <port name="data_read[13]" source="dm:dm_inst|dm_ram:inst|altsyncram:altsyncram_component|altsyncram_e3s3:auto_generated|altsyncram_rip2:altsyncram1|q_b[13]"/>
+        <port name="data_read[14]" source="dm:dm_inst|dm_ram:inst|altsyncram:altsyncram_component|altsyncram_e3s3:auto_generated|altsyncram_rip2:altsyncram1|q_b[14]"/>
+        <port name="data_read[15]" source="dm:dm_inst|dm_ram:inst|altsyncram:altsyncram_component|altsyncram_e3s3:auto_generated|altsyncram_rip2:altsyncram1|q_b[15]"/>
+        <port name="data_read[16]" source="dm:dm_inst|dm_ram:inst|altsyncram:altsyncram_component|altsyncram_e3s3:auto_generated|altsyncram_rip2:altsyncram1|q_b[16]"/>
+        <port name="data_read[17]" source="dm:dm_inst|dm_ram:inst|altsyncram:altsyncram_component|altsyncram_e3s3:auto_generated|altsyncram_rip2:altsyncram1|q_b[17]"/>
+        <port name="data_read[18]" source="dm:dm_inst|dm_ram:inst|altsyncram:altsyncram_component|altsyncram_e3s3:auto_generated|altsyncram_rip2:altsyncram1|q_b[18]"/>
+        <port name="data_read[19]" source="dm:dm_inst|dm_ram:inst|altsyncram:altsyncram_component|altsyncram_e3s3:auto_generated|altsyncram_rip2:altsyncram1|q_b[19]"/>
+        <port name="data_read[20]" source="dm:dm_inst|dm_ram:inst|altsyncram:altsyncram_component|altsyncram_e3s3:auto_generated|altsyncram_rip2:altsyncram1|q_b[20]"/>
+        <port name="data_read[21]" source="dm:dm_inst|dm_ram:inst|altsyncram:altsyncram_component|altsyncram_e3s3:auto_generated|altsyncram_rip2:altsyncram1|q_b[21]"/>
+        <port name="data_read[22]" source="dm:dm_inst|dm_ram:inst|altsyncram:altsyncram_component|altsyncram_e3s3:auto_generated|altsyncram_rip2:altsyncram1|q_b[22]"/>
+        <port name="data_read[23]" source="dm:dm_inst|dm_ram:inst|altsyncram:altsyncram_component|altsyncram_e3s3:auto_generated|altsyncram_rip2:altsyncram1|q_b[23]"/>
+        <port name="data_read[24]" source="dm:dm_inst|dm_ram:inst|altsyncram:altsyncram_component|altsyncram_e3s3:auto_generated|altsyncram_rip2:altsyncram1|q_b[24]"/>
+        <port name="data_read[25]" source="dm:dm_inst|dm_ram:inst|altsyncram:altsyncram_component|altsyncram_e3s3:auto_generated|altsyncram_rip2:altsyncram1|q_b[25]"/>
+        <port name="data_read[26]" source="dm:dm_inst|dm_ram:inst|altsyncram:altsyncram_component|altsyncram_e3s3:auto_generated|altsyncram_rip2:altsyncram1|q_b[26]"/>
+        <port name="data_read[27]" source="dm:dm_inst|dm_ram:inst|altsyncram:altsyncram_component|altsyncram_e3s3:auto_generated|altsyncram_rip2:altsyncram1|q_b[27]"/>
+        <port name="data_read[28]" source="dm:dm_inst|dm_ram:inst|altsyncram:altsyncram_component|altsyncram_e3s3:auto_generated|altsyncram_rip2:altsyncram1|q_b[28]"/>
+        <port name="data_read[29]" source="dm:dm_inst|dm_ram:inst|altsyncram:altsyncram_component|altsyncram_e3s3:auto_generated|altsyncram_rip2:altsyncram1|q_b[29]"/>
+        <port name="data_read[30]" source="dm:dm_inst|dm_ram:inst|altsyncram:altsyncram_component|altsyncram_e3s3:auto_generated|altsyncram_rip2:altsyncram1|q_b[30]"/>
+        <port name="data_read[31]" source="dm:dm_inst|dm_ram:inst|altsyncram:altsyncram_component|altsyncram_e3s3:auto_generated|altsyncram_rip2:altsyncram1|q_b[31]"/>
+        <port name="jtag.bp.dm_inst_inst_altsyncram_component_auto_generated_mgl_prim2_raw_tck" source="jtag.bp.dm_inst_inst_altsyncram_component_auto_generated_mgl_prim2_raw_tck"/>
+        <port name="jtag.bp.dm_inst_inst_altsyncram_component_auto_generated_mgl_prim2_tdi" source="jtag.bp.dm_inst_inst_altsyncram_component_auto_generated_mgl_prim2_tdi"/>
+        <port name="jtag.bp.dm_inst_inst_altsyncram_component_auto_generated_mgl_prim2_usr1" source="jtag.bp.dm_inst_inst_altsyncram_component_auto_generated_mgl_prim2_usr1"/>
+        <port name="jtag.bp.dm_inst_inst_altsyncram_component_auto_generated_mgl_prim2_jtag_state_cdr" source="jtag.bp.dm_inst_inst_altsyncram_component_auto_generated_mgl_prim2_jtag_state_cdr"/>
+        <port name="jtag.bp.dm_inst_inst_altsyncram_component_auto_generated_mgl_prim2_jtag_state_sdr" source="jtag.bp.dm_inst_inst_altsyncram_component_auto_generated_mgl_prim2_jtag_state_sdr"/>
+        <port name="jtag.bp.dm_inst_inst_altsyncram_component_auto_generated_mgl_prim2_jtag_state_e1dr" source="jtag.bp.dm_inst_inst_altsyncram_component_auto_generated_mgl_prim2_jtag_state_e1dr"/>
+        <port name="jtag.bp.dm_inst_inst_altsyncram_component_auto_generated_mgl_prim2_jtag_state_udr" source="jtag.bp.dm_inst_inst_altsyncram_component_auto_generated_mgl_prim2_jtag_state_udr"/>
+        <port name="jtag.bp.dm_inst_inst_altsyncram_component_auto_generated_mgl_prim2_jtag_state_uir" source="jtag.bp.dm_inst_inst_altsyncram_component_auto_generated_mgl_prim2_jtag_state_uir"/>
+        <port name="jtag.bp.dm_inst_inst_altsyncram_component_auto_generated_mgl_prim2_clr" source="jtag.bp.dm_inst_inst_altsyncram_component_auto_generated_mgl_prim2_clr"/>
+        <port name="jtag.bp.dm_inst_inst_altsyncram_component_auto_generated_mgl_prim2_ena" source="jtag.bp.dm_inst_inst_altsyncram_component_auto_generated_mgl_prim2_ena"/>
+        <port name="jtag.bp.dm_inst_inst_altsyncram_component_auto_generated_mgl_prim2_ir_in_0_" source="jtag.bp.dm_inst_inst_altsyncram_component_auto_generated_mgl_prim2_ir_in_0_"/>
+        <port name="jtag.bp.dm_inst_inst_altsyncram_component_auto_generated_mgl_prim2_ir_in_1_" source="jtag.bp.dm_inst_inst_altsyncram_component_auto_generated_mgl_prim2_ir_in_1_"/>
+        <port name="jtag.bp.dm_inst_inst_altsyncram_component_auto_generated_mgl_prim2_ir_in_2_" source="jtag.bp.dm_inst_inst_altsyncram_component_auto_generated_mgl_prim2_ir_in_2_"/>
+        <port name="jtag.bp.dm_inst_inst_altsyncram_component_auto_generated_mgl_prim2_ir_in_3_" source="jtag.bp.dm_inst_inst_altsyncram_component_auto_generated_mgl_prim2_ir_in_3_"/>
+        <port name="jtag.bp.dm_inst_inst_altsyncram_component_auto_generated_mgl_prim2_ir_in_4_" source="jtag.bp.dm_inst_inst_altsyncram_component_auto_generated_mgl_prim2_ir_in_4_"/>
+      </inputs>
+      <outputs>
+        <port name="tck_usr"/>
+        <port name="address[0]"/>
+        <port name="address[1]"/>
+        <port name="address[2]"/>
+        <port name="address[3]"/>
+        <port name="address[4]"/>
+        <port name="address[5]"/>
+        <port name="address[6]"/>
+        <port name="address[7]"/>
+        <port name="address[8]"/>
+        <port name="address[9]"/>
+        <port name="enable_write"/>
+        <port name="data_write[0]"/>
+        <port name="data_write[1]"/>
+        <port name="data_write[2]"/>
+        <port name="data_write[3]"/>
+        <port name="data_write[4]"/>
+        <port name="data_write[5]"/>
+        <port name="data_write[6]"/>
+        <port name="data_write[7]"/>
+        <port name="data_write[8]"/>
+        <port name="data_write[9]"/>
+        <port name="data_write[10]"/>
+        <port name="data_write[11]"/>
+        <port name="data_write[12]"/>
+        <port name="data_write[13]"/>
+        <port name="data_write[14]"/>
+        <port name="data_write[15]"/>
+        <port name="data_write[16]"/>
+        <port name="data_write[17]"/>
+        <port name="data_write[18]"/>
+        <port name="data_write[19]"/>
+        <port name="data_write[20]"/>
+        <port name="data_write[21]"/>
+        <port name="data_write[22]"/>
+        <port name="data_write[23]"/>
+        <port name="data_write[24]"/>
+        <port name="data_write[25]"/>
+        <port name="data_write[26]"/>
+        <port name="data_write[27]"/>
+        <port name="data_write[28]"/>
+        <port name="data_write[29]"/>
+        <port name="data_write[30]"/>
+        <port name="data_write[31]"/>
+        <port name="jtag.bp.dm_inst_inst_altsyncram_component_auto_generated_mgl_prim2_ir_out_0_"/>
+        <port name="jtag.bp.dm_inst_inst_altsyncram_component_auto_generated_mgl_prim2_ir_out_1_"/>
+        <port name="jtag.bp.dm_inst_inst_altsyncram_component_auto_generated_mgl_prim2_ir_out_2_"/>
+        <port name="jtag.bp.dm_inst_inst_altsyncram_component_auto_generated_mgl_prim2_ir_out_3_"/>
+        <port name="jtag.bp.dm_inst_inst_altsyncram_component_auto_generated_mgl_prim2_ir_out_4_"/>
+        <port name="jtag.bp.dm_inst_inst_altsyncram_component_auto_generated_mgl_prim2_tdo"/>
+      </outputs>
+    </node>
+    <node hpath="ctrl_prb:ctrl_prb_inst|ctrl_prob:ctrl_prb_inst|altsource_probe:altsource_probe_component" instance_id="1" mfg_id="110" node_id="9" sld_node_info="0x486E01" version="0">
+      <parameters>
+        <parameter name="lpm_type" type="string" value="altsource_probe"/>
+        <parameter name="lpm_hint" type="string" value="UNUSED"/>
+        <parameter name="sld_auto_instance_index" type="string" value="YES"/>
+        <parameter name="sld_instance_index" type="dec" value="0"/>
+        <parameter name="SLD_NODE_INFO" type="dec" value="4746752"/>
+        <parameter name="sld_ir_width" type="dec" value="4"/>
+        <parameter name="instance_id" type="string" value="CPRB"/>
+        <parameter name="probe_width" type="dec" value="16"/>
+        <parameter name="source_width" type="dec" value="0"/>
+        <parameter name="source_initial_value" type="string" value=" 0"/>
+        <parameter name="enable_metastability" type="string" value="NO"/>
+        <parameter name=" constraint(probe)" type="string" value="15 downto 0"/>
+        <parameter name=" constraint(sld_auto_instance_index)" type="string" value="1 to 3"/>
+        <parameter name=" constraint(source_initial_value)" type="string" value="1 to 2"/>
+        <parameter name=" constraint(enable_metastability)" type="string" value="1 to 2"/>
+        <parameter name=" constraint(lpm_type)" type="string" value="1 to 15"/>
+        <parameter name=" constraint(instance_id)" type="string" value="1 to 4"/>
+      </parameters>
+      <inputs>
+        <port name="probe[0]" source="ctrl_prb:ctrl_prb_inst|ctrl_prob:ctrl_prb_inst|probe[0]"/>
+        <port name="probe[1]" source="ctrl_prb:ctrl_prb_inst|ctrl_prob:ctrl_prb_inst|probe[1]"/>
+        <port name="probe[2]" source="ctrl_prb:ctrl_prb_inst|ctrl_prob:ctrl_prb_inst|probe[2]"/>
+        <port name="probe[3]" source="ctrl_prb:ctrl_prb_inst|ctrl_prob:ctrl_prb_inst|probe[3]"/>
+        <port name="probe[4]" source="ctrl_prb:ctrl_prb_inst|ctrl_prob:ctrl_prb_inst|probe[4]"/>
+        <port name="probe[5]" source="ctrl_prb:ctrl_prb_inst|ctrl_prob:ctrl_prb_inst|probe[5]"/>
+        <port name="probe[6]" source="ctrl_prb:ctrl_prb_inst|ctrl_prob:ctrl_prb_inst|probe[6]"/>
+        <port name="probe[7]" source="ctrl_prb:ctrl_prb_inst|ctrl_prob:ctrl_prb_inst|probe[7]"/>
+        <port name="probe[8]" source="ctrl_prb:ctrl_prb_inst|ctrl_prob:ctrl_prb_inst|probe[8]"/>
+        <port name="probe[9]" source="ctrl_prb:ctrl_prb_inst|ctrl_prob:ctrl_prb_inst|probe[9]"/>
+        <port name="probe[10]" source="ctrl_prb:ctrl_prb_inst|ctrl_prob:ctrl_prb_inst|probe[10]"/>
+        <port name="probe[11]" source="ctrl_prb:ctrl_prb_inst|ctrl_prob:ctrl_prb_inst|probe[11]"/>
+        <port name="probe[12]" source="ctrl_prb:ctrl_prb_inst|ctrl_prob:ctrl_prb_inst|probe[12]"/>
+        <port name="probe[13]" source="ctrl_prb:ctrl_prb_inst|ctrl_prob:ctrl_prb_inst|probe[13]"/>
+        <port name="probe[14]" source="ctrl_prb:ctrl_prb_inst|ctrl_prob:ctrl_prb_inst|probe[14]"/>
+        <port name="probe[15]" source="ctrl_prb:ctrl_prb_inst|ctrl_prob:ctrl_prb_inst|probe[15]"/>
+        <port name="jtag.bp.ctrl_prb_inst_ctrl_prb_inst_altsource_probe_component_raw_tck" source="jtag.bp.ctrl_prb_inst_ctrl_prb_inst_altsource_probe_component_raw_tck"/>
+        <port name="jtag.bp.ctrl_prb_inst_ctrl_prb_inst_altsource_probe_component_tdi" source="jtag.bp.ctrl_prb_inst_ctrl_prb_inst_altsource_probe_component_tdi"/>
+        <port name="jtag.bp.ctrl_prb_inst_ctrl_prb_inst_altsource_probe_component_usr1" source="jtag.bp.ctrl_prb_inst_ctrl_prb_inst_altsource_probe_component_usr1"/>
+        <port name="jtag.bp.ctrl_prb_inst_ctrl_prb_inst_altsource_probe_component_jtag_state_cdr" source="jtag.bp.ctrl_prb_inst_ctrl_prb_inst_altsource_probe_component_jtag_state_cdr"/>
+        <port name="jtag.bp.ctrl_prb_inst_ctrl_prb_inst_altsource_probe_component_jtag_state_sdr" source="jtag.bp.ctrl_prb_inst_ctrl_prb_inst_altsource_probe_component_jtag_state_sdr"/>
+        <port name="jtag.bp.ctrl_prb_inst_ctrl_prb_inst_altsource_probe_component_jtag_state_e1dr" source="jtag.bp.ctrl_prb_inst_ctrl_prb_inst_altsource_probe_component_jtag_state_e1dr"/>
+        <port name="jtag.bp.ctrl_prb_inst_ctrl_prb_inst_altsource_probe_component_jtag_state_udr" source="jtag.bp.ctrl_prb_inst_ctrl_prb_inst_altsource_probe_component_jtag_state_udr"/>
+        <port name="jtag.bp.ctrl_prb_inst_ctrl_prb_inst_altsource_probe_component_jtag_state_cir" source="jtag.bp.ctrl_prb_inst_ctrl_prb_inst_altsource_probe_component_jtag_state_cir"/>
+        <port name="jtag.bp.ctrl_prb_inst_ctrl_prb_inst_altsource_probe_component_jtag_state_uir" source="jtag.bp.ctrl_prb_inst_ctrl_prb_inst_altsource_probe_component_jtag_state_uir"/>
+        <port name="jtag.bp.ctrl_prb_inst_ctrl_prb_inst_altsource_probe_component_jtag_state_tlr" source="jtag.bp.ctrl_prb_inst_ctrl_prb_inst_altsource_probe_component_jtag_state_tlr"/>
+        <port name="jtag.bp.ctrl_prb_inst_ctrl_prb_inst_altsource_probe_component_clr" source="jtag.bp.ctrl_prb_inst_ctrl_prb_inst_altsource_probe_component_clr"/>
+        <port name="jtag.bp.ctrl_prb_inst_ctrl_prb_inst_altsource_probe_component_ena" source="jtag.bp.ctrl_prb_inst_ctrl_prb_inst_altsource_probe_component_ena"/>
+        <port name="jtag.bp.ctrl_prb_inst_ctrl_prb_inst_altsource_probe_component_ir_in_0_" source="jtag.bp.ctrl_prb_inst_ctrl_prb_inst_altsource_probe_component_ir_in_0_"/>
+        <port name="jtag.bp.ctrl_prb_inst_ctrl_prb_inst_altsource_probe_component_ir_in_1_" source="jtag.bp.ctrl_prb_inst_ctrl_prb_inst_altsource_probe_component_ir_in_1_"/>
+        <port name="jtag.bp.ctrl_prb_inst_ctrl_prb_inst_altsource_probe_component_ir_in_2_" source="jtag.bp.ctrl_prb_inst_ctrl_prb_inst_altsource_probe_component_ir_in_2_"/>
+        <port name="jtag.bp.ctrl_prb_inst_ctrl_prb_inst_altsource_probe_component_ir_in_3_" source="jtag.bp.ctrl_prb_inst_ctrl_prb_inst_altsource_probe_component_ir_in_3_"/>
+      </inputs>
+      <outputs>
+        <port name="jtag.bp.ctrl_prb_inst_ctrl_prb_inst_altsource_probe_component_ir_out_0_"/>
+        <port name="jtag.bp.ctrl_prb_inst_ctrl_prb_inst_altsource_probe_component_ir_out_1_"/>
+        <port name="jtag.bp.ctrl_prb_inst_ctrl_prb_inst_altsource_probe_component_ir_out_2_"/>
+        <port name="jtag.bp.ctrl_prb_inst_ctrl_prb_inst_altsource_probe_component_ir_out_3_"/>
+        <port name="jtag.bp.ctrl_prb_inst_ctrl_prb_inst_altsource_probe_component_tdo"/>
+      </outputs>
+    </node>
+    <node hpath="signal_tap_mod:stp_inst|signal_tap:stp_function|sld_signaltap:sld_signaltap_component" instance_id="0" mfg_id="110" node_id="2" sld_node_info="0x30106E00" version="6">
+      <parameters>
+        <parameter name="lpm_type" type="string" value="sld_signaltap"/>
+        <parameter name="sld_node_info" type="dec" value="1076736"/>
+        <parameter name="SLD_SECTION_ID" type="string" value="hdl_signaltap_0"/>
+        <parameter name="SLD_IP_VERSION" type="dec" value="6"/>
+        <parameter name="SLD_IP_MINOR_VERSION" type="dec" value="0"/>
+        <parameter name="SLD_COMMON_IP_VERSION" type="dec" value="0"/>
+        <parameter name="sld_data_bits" type="dec" value="256"/>
+        <parameter name="sld_trigger_bits" type="dec" value="1"/>
+        <parameter name="sld_node_crc_bits" type="dec" value="32"/>
+        <parameter name="sld_node_crc_hiword" type="dec" value="7645"/>
+        <parameter name="sld_node_crc_loword" type="dec" value="33270"/>
+        <parameter name="SLD_INCREMENTAL_ROUTING" type="dec" value="0"/>
+        <parameter name="sld_sample_depth" type="dec" value="256"/>
+        <parameter name="SLD_SEGMENT_SIZE" type="dec" value="0"/>
+        <parameter name="sld_ram_block_type" type="string" value="AUTO"/>
+        <parameter name="SLD_STATE_BITS" type="dec" value="11"/>
+        <parameter name="SLD_BUFFER_FULL_STOP" type="dec" value="1"/>
+        <parameter name="sld_mem_address_bits" type="dec" value="8"/>
+        <parameter name="sld_data_bit_cntr_bits" type="dec" value="9"/>
+        <parameter name="sld_trigger_level" type="dec" value="1"/>
+        <parameter name="sld_trigger_in_enabled" type="dec" value="0"/>
+        <parameter name="SLD_HPS_TRIGGER_IN_ENABLED" type="dec" value="0"/>
+        <parameter name="SLD_HPS_TRIGGER_OUT_ENABLED" type="dec" value="0"/>
+        <parameter name="SLD_HPS_EVENT_ENABLED" type="dec" value="0"/>
+        <parameter name="SLD_HPS_EVENT_ID" type="dec" value="0"/>
+        <parameter name="sld_advanced_trigger_entity" type="string" value="basic,1,"/>
+        <parameter name="sld_trigger_level_pipeline" type="dec" value="1"/>
+        <parameter name="sld_enable_advanced_trigger" type="dec" value="0"/>
+        <parameter name="SLD_ADVANCED_TRIGGER_1" type="string" value="NONE"/>
+        <parameter name="SLD_ADVANCED_TRIGGER_2" type="string" value="NONE"/>
+        <parameter name="SLD_ADVANCED_TRIGGER_3" type="string" value="NONE"/>
+        <parameter name="SLD_ADVANCED_TRIGGER_4" type="string" value="NONE"/>
+        <parameter name="SLD_ADVANCED_TRIGGER_5" type="string" value="NONE"/>
+        <parameter name="SLD_ADVANCED_TRIGGER_6" type="string" value="NONE"/>
+        <parameter name="SLD_ADVANCED_TRIGGER_7" type="string" value="NONE"/>
+        <parameter name="SLD_ADVANCED_TRIGGER_8" type="string" value="NONE"/>
+        <parameter name="SLD_ADVANCED_TRIGGER_9" type="string" value="NONE"/>
+        <parameter name="SLD_ADVANCED_TRIGGER_10" type="string" value="NONE"/>
+        <parameter name="SLD_INVERSION_MASK_LENGTH" type="dec" value="1"/>
+        <parameter name="SLD_INVERSION_MASK" type="ubin" value="0"/>
+        <parameter name="SLD_POWER_UP_TRIGGER" type="dec" value="0"/>
+        <parameter name="SLD_STATE_FLOW_MGR_ENTITY" type="string" value="state_flow_mgr_entity.vhd"/>
+        <parameter name="SLD_STATE_FLOW_USE_GENERATED" type="dec" value="0"/>
+        <parameter name="SLD_CURRENT_RESOURCE_WIDTH" type="dec" value="0"/>
+        <parameter name="SLD_ATTRIBUTE_MEM_MODE" type="string" value="OFF"/>
+        <parameter name="SLD_STORAGE_QUALIFIER_BITS" type="dec" value="1"/>
+        <parameter name="sld_storage_qualifier_gap_record" type="dec" value="1"/>
+        <parameter name="sld_storage_qualifier_mode" type="string" value="PORT"/>
+        <parameter name="SLD_STORAGE_QUALIFIER_ENABLE_ADVANCED_CONDITION" type="dec" value="0"/>
+        <parameter name="SLD_STORAGE_QUALIFIER_INVERSION_MASK_LENGTH" type="dec" value="0"/>
+        <parameter name="SLD_STORAGE_QUALIFIER_ADVANCED_CONDITION_ENTITY" type="string" value="basic"/>
+        <parameter name="SLD_STORAGE_QUALIFIER_PIPELINE" type="dec" value="0"/>
+        <parameter name="SLD_CREATE_MONITOR_INTERFACE" type="dec" value="0"/>
+        <parameter name="SLD_USE_JTAG_SIGNAL_ADAPTER" type="dec" value="1"/>
+        <parameter name=" constraint(lpm_type)" type="string" value="1 to 13"/>
+        <parameter name=" constraint(sld_ram_block_type)" type="string" value="1 to 4"/>
+        <parameter name=" constraint(sld_advanced_trigger_entity)" type="string" value="1 to 8"/>
+        <parameter name=" constraint(sld_storage_qualifier_mode)" type="string" value="1 to 4"/>
+        <parameter name=" constraint(acq_data_in)" type="string" value="255 downto 0"/>
+        <parameter name=" constraint(acq_trigger_in)" type="string" value="0 downto 0"/>
+      </parameters>
+      <inputs>
+        <port name="acq_clk" source="signal_tap_mod:stp_inst|signal_tap:stp_function|acq_clk"/>
+        <port name="acq_data_in[0]" source="signal_tap_mod:stp_inst|signal_tap:stp_function|acq_data_in[0]"/>
+        <port name="acq_data_in[1]" source="signal_tap_mod:stp_inst|signal_tap:stp_function|acq_data_in[1]"/>
+        <port name="acq_data_in[2]" source="signal_tap_mod:stp_inst|signal_tap:stp_function|acq_data_in[2]"/>
+        <port name="acq_data_in[3]" source="signal_tap_mod:stp_inst|signal_tap:stp_function|acq_data_in[3]"/>
+        <port name="acq_data_in[4]" source="signal_tap_mod:stp_inst|signal_tap:stp_function|acq_data_in[4]"/>
+        <port name="acq_data_in[5]" source="signal_tap_mod:stp_inst|signal_tap:stp_function|acq_data_in[5]"/>
+        <port name="acq_data_in[6]" source="signal_tap_mod:stp_inst|signal_tap:stp_function|acq_data_in[6]"/>
+        <port name="acq_data_in[7]" source="signal_tap_mod:stp_inst|signal_tap:stp_function|acq_data_in[7]"/>
+        <port name="acq_data_in[8]" source="signal_tap_mod:stp_inst|signal_tap:stp_function|acq_data_in[8]"/>
+        <port name="acq_data_in[9]" source="signal_tap_mod:stp_inst|signal_tap:stp_function|acq_data_in[9]"/>
+        <port name="acq_data_in[10]" source="signal_tap_mod:stp_inst|signal_tap:stp_function|acq_data_in[10]"/>
+        <port name="acq_data_in[11]" source="signal_tap_mod:stp_inst|signal_tap:stp_function|acq_data_in[11]"/>
+        <port name="acq_data_in[12]" source="signal_tap_mod:stp_inst|signal_tap:stp_function|acq_data_in[12]"/>
+        <port name="acq_data_in[13]" source="signal_tap_mod:stp_inst|signal_tap:stp_function|acq_data_in[13]"/>
+        <port name="acq_data_in[14]" source="signal_tap_mod:stp_inst|signal_tap:stp_function|acq_data_in[14]"/>
+        <port name="acq_data_in[15]" source="signal_tap_mod:stp_inst|signal_tap:stp_function|acq_data_in[15]"/>
+        <port name="acq_data_in[16]" source="signal_tap_mod:stp_inst|signal_tap:stp_function|acq_data_in[16]"/>
+        <port name="acq_data_in[17]" source="signal_tap_mod:stp_inst|signal_tap:stp_function|acq_data_in[17]"/>
+        <port name="acq_data_in[18]" source="signal_tap_mod:stp_inst|signal_tap:stp_function|acq_data_in[18]"/>
+        <port name="acq_data_in[19]" source="signal_tap_mod:stp_inst|signal_tap:stp_function|acq_data_in[19]"/>
+        <port name="acq_data_in[20]" source="signal_tap_mod:stp_inst|signal_tap:stp_function|acq_data_in[20]"/>
+        <port name="acq_data_in[21]" source="signal_tap_mod:stp_inst|signal_tap:stp_function|acq_data_in[21]"/>
+        <port name="acq_data_in[22]" source="signal_tap_mod:stp_inst|signal_tap:stp_function|acq_data_in[22]"/>
+        <port name="acq_data_in[23]" source="signal_tap_mod:stp_inst|signal_tap:stp_function|acq_data_in[23]"/>
+        <port name="acq_data_in[24]" source="signal_tap_mod:stp_inst|signal_tap:stp_function|acq_data_in[24]"/>
+        <port name="acq_data_in[25]" source="signal_tap_mod:stp_inst|signal_tap:stp_function|acq_data_in[25]"/>
+        <port name="acq_data_in[26]" source="signal_tap_mod:stp_inst|signal_tap:stp_function|acq_data_in[26]"/>
+        <port name="acq_data_in[27]" source="signal_tap_mod:stp_inst|signal_tap:stp_function|acq_data_in[27]"/>
+        <port name="acq_data_in[28]" source="signal_tap_mod:stp_inst|signal_tap:stp_function|acq_data_in[28]"/>
+        <port name="acq_data_in[29]" source="signal_tap_mod:stp_inst|signal_tap:stp_function|acq_data_in[29]"/>
+        <port name="acq_data_in[30]" source="signal_tap_mod:stp_inst|signal_tap:stp_function|acq_data_in[30]"/>
+        <port name="acq_data_in[31]" source="signal_tap_mod:stp_inst|signal_tap:stp_function|acq_data_in[31]"/>
+        <port name="acq_data_in[32]" source="signal_tap_mod:stp_inst|signal_tap:stp_function|acq_data_in[32]"/>
+        <port name="acq_data_in[33]" source="signal_tap_mod:stp_inst|signal_tap:stp_function|acq_data_in[33]"/>
+        <port name="acq_data_in[34]" source="signal_tap_mod:stp_inst|signal_tap:stp_function|acq_data_in[34]"/>
+        <port name="acq_data_in[35]" source="signal_tap_mod:stp_inst|signal_tap:stp_function|acq_data_in[35]"/>
+        <port name="acq_data_in[36]" source="signal_tap_mod:stp_inst|signal_tap:stp_function|acq_data_in[36]"/>
+        <port name="acq_data_in[37]" source="signal_tap_mod:stp_inst|signal_tap:stp_function|acq_data_in[37]"/>
+        <port name="acq_data_in[38]" source="signal_tap_mod:stp_inst|signal_tap:stp_function|acq_data_in[38]"/>
+        <port name="acq_data_in[39]" source="signal_tap_mod:stp_inst|signal_tap:stp_function|acq_data_in[39]"/>
+        <port name="acq_data_in[40]" source="signal_tap_mod:stp_inst|signal_tap:stp_function|acq_data_in[40]"/>
+        <port name="acq_data_in[41]" source="signal_tap_mod:stp_inst|signal_tap:stp_function|acq_data_in[41]"/>
+        <port name="acq_data_in[42]" source="signal_tap_mod:stp_inst|signal_tap:stp_function|acq_data_in[42]"/>
+        <port name="acq_data_in[43]" source="signal_tap_mod:stp_inst|signal_tap:stp_function|acq_data_in[43]"/>
+        <port name="acq_data_in[44]" source="signal_tap_mod:stp_inst|signal_tap:stp_function|acq_data_in[44]"/>
+        <port name="acq_data_in[45]" source="signal_tap_mod:stp_inst|signal_tap:stp_function|acq_data_in[45]"/>
+        <port name="acq_data_in[46]" source="signal_tap_mod:stp_inst|signal_tap:stp_function|acq_data_in[46]"/>
+        <port name="acq_data_in[47]" source="signal_tap_mod:stp_inst|signal_tap:stp_function|acq_data_in[47]"/>
+        <port name="acq_data_in[48]" source="signal_tap_mod:stp_inst|signal_tap:stp_function|acq_data_in[48]"/>
+        <port name="acq_data_in[49]" source="signal_tap_mod:stp_inst|signal_tap:stp_function|acq_data_in[49]"/>
+        <port name="acq_data_in[50]" source="signal_tap_mod:stp_inst|signal_tap:stp_function|acq_data_in[50]"/>
+        <port name="acq_data_in[51]" source="signal_tap_mod:stp_inst|signal_tap:stp_function|acq_data_in[51]"/>
+        <port name="acq_data_in[52]" source="signal_tap_mod:stp_inst|signal_tap:stp_function|acq_data_in[52]"/>
+        <port name="acq_data_in[53]" source="signal_tap_mod:stp_inst|signal_tap:stp_function|acq_data_in[53]"/>
+        <port name="acq_data_in[54]" source="signal_tap_mod:stp_inst|signal_tap:stp_function|acq_data_in[54]"/>
+        <port name="acq_data_in[55]" source="signal_tap_mod:stp_inst|signal_tap:stp_function|acq_data_in[55]"/>
+        <port name="acq_data_in[56]" source="signal_tap_mod:stp_inst|signal_tap:stp_function|acq_data_in[56]"/>
+        <port name="acq_data_in[57]" source="signal_tap_mod:stp_inst|signal_tap:stp_function|acq_data_in[57]"/>
+        <port name="acq_data_in[58]" source="signal_tap_mod:stp_inst|signal_tap:stp_function|acq_data_in[58]"/>
+        <port name="acq_data_in[59]" source="signal_tap_mod:stp_inst|signal_tap:stp_function|acq_data_in[59]"/>
+        <port name="acq_data_in[60]" source="signal_tap_mod:stp_inst|signal_tap:stp_function|acq_data_in[60]"/>
+        <port name="acq_data_in[61]" source="signal_tap_mod:stp_inst|signal_tap:stp_function|acq_data_in[61]"/>
+        <port name="acq_data_in[62]" source="signal_tap_mod:stp_inst|signal_tap:stp_function|acq_data_in[62]"/>
+        <port name="acq_data_in[63]" source="signal_tap_mod:stp_inst|signal_tap:stp_function|acq_data_in[63]"/>
+        <port name="acq_data_in[64]" source="signal_tap_mod:stp_inst|signal_tap:stp_function|acq_data_in[64]"/>
+        <port name="acq_data_in[65]" source="signal_tap_mod:stp_inst|signal_tap:stp_function|acq_data_in[65]"/>
+        <port name="acq_data_in[66]" source="signal_tap_mod:stp_inst|signal_tap:stp_function|acq_data_in[66]"/>
+        <port name="acq_data_in[67]" source="signal_tap_mod:stp_inst|signal_tap:stp_function|acq_data_in[67]"/>
+        <port name="acq_data_in[68]" source="signal_tap_mod:stp_inst|signal_tap:stp_function|acq_data_in[68]"/>
+        <port name="acq_data_in[69]" source="signal_tap_mod:stp_inst|signal_tap:stp_function|acq_data_in[69]"/>
+        <port name="acq_data_in[70]" source="signal_tap_mod:stp_inst|signal_tap:stp_function|acq_data_in[70]"/>
+        <port name="acq_data_in[71]" source="signal_tap_mod:stp_inst|signal_tap:stp_function|acq_data_in[71]"/>
+        <port name="acq_data_in[72]" source="signal_tap_mod:stp_inst|signal_tap:stp_function|acq_data_in[72]"/>
+        <port name="acq_data_in[73]" source="signal_tap_mod:stp_inst|signal_tap:stp_function|acq_data_in[73]"/>
+        <port name="acq_data_in[74]" source="signal_tap_mod:stp_inst|signal_tap:stp_function|acq_data_in[74]"/>
+        <port name="acq_data_in[75]" source="signal_tap_mod:stp_inst|signal_tap:stp_function|acq_data_in[75]"/>
+        <port name="acq_data_in[76]" source="signal_tap_mod:stp_inst|signal_tap:stp_function|acq_data_in[76]"/>
+        <port name="acq_data_in[77]" source="signal_tap_mod:stp_inst|signal_tap:stp_function|acq_data_in[77]"/>
+        <port name="acq_data_in[78]" source="signal_tap_mod:stp_inst|signal_tap:stp_function|acq_data_in[78]"/>
+        <port name="acq_data_in[79]" source="signal_tap_mod:stp_inst|signal_tap:stp_function|acq_data_in[79]"/>
+        <port name="acq_data_in[80]" source="signal_tap_mod:stp_inst|signal_tap:stp_function|acq_data_in[80]"/>
+        <port name="acq_data_in[81]" source="signal_tap_mod:stp_inst|signal_tap:stp_function|acq_data_in[81]"/>
+        <port name="acq_data_in[82]" source="signal_tap_mod:stp_inst|signal_tap:stp_function|acq_data_in[82]"/>
+        <port name="acq_data_in[83]" source="signal_tap_mod:stp_inst|signal_tap:stp_function|acq_data_in[83]"/>
+        <port name="acq_data_in[84]" source="signal_tap_mod:stp_inst|signal_tap:stp_function|acq_data_in[84]"/>
+        <port name="acq_data_in[85]" source="signal_tap_mod:stp_inst|signal_tap:stp_function|acq_data_in[85]"/>
+        <port name="acq_data_in[86]" source="signal_tap_mod:stp_inst|signal_tap:stp_function|acq_data_in[86]"/>
+        <port name="acq_data_in[87]" source="signal_tap_mod:stp_inst|signal_tap:stp_function|acq_data_in[87]"/>
+        <port name="acq_data_in[88]" source="signal_tap_mod:stp_inst|signal_tap:stp_function|acq_data_in[88]"/>
+        <port name="acq_data_in[89]" source="signal_tap_mod:stp_inst|signal_tap:stp_function|acq_data_in[89]"/>
+        <port name="acq_data_in[90]" source="signal_tap_mod:stp_inst|signal_tap:stp_function|acq_data_in[90]"/>
+        <port name="acq_data_in[91]" source="signal_tap_mod:stp_inst|signal_tap:stp_function|acq_data_in[91]"/>
+        <port name="acq_data_in[92]" source="signal_tap_mod:stp_inst|signal_tap:stp_function|acq_data_in[92]"/>
+        <port name="acq_data_in[93]" source="signal_tap_mod:stp_inst|signal_tap:stp_function|acq_data_in[93]"/>
+        <port name="acq_data_in[94]" source="signal_tap_mod:stp_inst|signal_tap:stp_function|acq_data_in[94]"/>
+        <port name="acq_data_in[95]" source="signal_tap_mod:stp_inst|signal_tap:stp_function|acq_data_in[95]"/>
+        <port name="acq_data_in[96]" source="signal_tap_mod:stp_inst|signal_tap:stp_function|acq_data_in[96]"/>
+        <port name="acq_data_in[97]" source="signal_tap_mod:stp_inst|signal_tap:stp_function|acq_data_in[97]"/>
+        <port name="acq_data_in[98]" source="signal_tap_mod:stp_inst|signal_tap:stp_function|acq_data_in[98]"/>
+        <port name="acq_data_in[99]" source="signal_tap_mod:stp_inst|signal_tap:stp_function|acq_data_in[99]"/>
+        <port name="acq_data_in[100]" source="signal_tap_mod:stp_inst|signal_tap:stp_function|acq_data_in[100]"/>
+        <port name="acq_data_in[101]" source="signal_tap_mod:stp_inst|signal_tap:stp_function|acq_data_in[101]"/>
+        <port name="acq_data_in[102]" source="signal_tap_mod:stp_inst|signal_tap:stp_function|acq_data_in[102]"/>
+        <port name="acq_data_in[103]" source="signal_tap_mod:stp_inst|signal_tap:stp_function|acq_data_in[103]"/>
+        <port name="acq_data_in[104]" source="signal_tap_mod:stp_inst|signal_tap:stp_function|acq_data_in[104]"/>
+        <port name="acq_data_in[105]" source="signal_tap_mod:stp_inst|signal_tap:stp_function|acq_data_in[105]"/>
+        <port name="acq_data_in[106]" source="signal_tap_mod:stp_inst|signal_tap:stp_function|acq_data_in[106]"/>
+        <port name="acq_data_in[107]" source="signal_tap_mod:stp_inst|signal_tap:stp_function|acq_data_in[107]"/>
+        <port name="acq_data_in[108]" source="signal_tap_mod:stp_inst|signal_tap:stp_function|acq_data_in[108]"/>
+        <port name="acq_data_in[109]" source="signal_tap_mod:stp_inst|signal_tap:stp_function|acq_data_in[109]"/>
+        <port name="acq_data_in[110]" source="signal_tap_mod:stp_inst|signal_tap:stp_function|acq_data_in[110]"/>
+        <port name="acq_data_in[111]" source="signal_tap_mod:stp_inst|signal_tap:stp_function|acq_data_in[111]"/>
+        <port name="acq_data_in[112]" source="signal_tap_mod:stp_inst|signal_tap:stp_function|acq_data_in[112]"/>
+        <port name="acq_data_in[113]" source="signal_tap_mod:stp_inst|signal_tap:stp_function|acq_data_in[113]"/>
+        <port name="acq_data_in[114]" source="signal_tap_mod:stp_inst|signal_tap:stp_function|acq_data_in[114]"/>
+        <port name="acq_data_in[115]" source="signal_tap_mod:stp_inst|signal_tap:stp_function|acq_data_in[115]"/>
+        <port name="acq_data_in[116]" source="signal_tap_mod:stp_inst|signal_tap:stp_function|acq_data_in[116]"/>
+        <port name="acq_data_in[117]" source="signal_tap_mod:stp_inst|signal_tap:stp_function|acq_data_in[117]"/>
+        <port name="acq_data_in[118]" source="signal_tap_mod:stp_inst|signal_tap:stp_function|acq_data_in[118]"/>
+        <port name="acq_data_in[119]" source="signal_tap_mod:stp_inst|signal_tap:stp_function|acq_data_in[119]"/>
+        <port name="acq_data_in[120]" source="signal_tap_mod:stp_inst|signal_tap:stp_function|acq_data_in[120]"/>
+        <port name="acq_data_in[121]" source="signal_tap_mod:stp_inst|signal_tap:stp_function|acq_data_in[121]"/>
+        <port name="acq_data_in[122]" source="signal_tap_mod:stp_inst|signal_tap:stp_function|acq_data_in[122]"/>
+        <port name="acq_data_in[123]" source="signal_tap_mod:stp_inst|signal_tap:stp_function|acq_data_in[123]"/>
+        <port name="acq_data_in[124]" source="signal_tap_mod:stp_inst|signal_tap:stp_function|acq_data_in[124]"/>
+        <port name="acq_data_in[125]" source="signal_tap_mod:stp_inst|signal_tap:stp_function|acq_data_in[125]"/>
+        <port name="acq_data_in[126]" source="signal_tap_mod:stp_inst|signal_tap:stp_function|acq_data_in[126]"/>
+        <port name="acq_data_in[127]" source="signal_tap_mod:stp_inst|signal_tap:stp_function|acq_data_in[127]"/>
+        <port name="acq_data_in[128]" source="signal_tap_mod:stp_inst|signal_tap:stp_function|acq_data_in[128]"/>
+        <port name="acq_data_in[129]" source="signal_tap_mod:stp_inst|signal_tap:stp_function|acq_data_in[129]"/>
+        <port name="acq_data_in[130]" source="signal_tap_mod:stp_inst|signal_tap:stp_function|acq_data_in[130]"/>
+        <port name="acq_data_in[131]" source="signal_tap_mod:stp_inst|signal_tap:stp_function|acq_data_in[131]"/>
+        <port name="acq_data_in[132]" source="signal_tap_mod:stp_inst|signal_tap:stp_function|acq_data_in[132]"/>
+        <port name="acq_data_in[133]" source="signal_tap_mod:stp_inst|signal_tap:stp_function|acq_data_in[133]"/>
+        <port name="acq_data_in[134]" source="signal_tap_mod:stp_inst|signal_tap:stp_function|acq_data_in[134]"/>
+        <port name="acq_data_in[135]" source="signal_tap_mod:stp_inst|signal_tap:stp_function|acq_data_in[135]"/>
+        <port name="acq_data_in[136]" source="signal_tap_mod:stp_inst|signal_tap:stp_function|acq_data_in[136]"/>
+        <port name="acq_data_in[137]" source="signal_tap_mod:stp_inst|signal_tap:stp_function|acq_data_in[137]"/>
+        <port name="acq_data_in[138]" source="signal_tap_mod:stp_inst|signal_tap:stp_function|acq_data_in[138]"/>
+        <port name="acq_data_in[139]" source="signal_tap_mod:stp_inst|signal_tap:stp_function|acq_data_in[139]"/>
+        <port name="acq_data_in[140]" source="signal_tap_mod:stp_inst|signal_tap:stp_function|acq_data_in[140]"/>
+        <port name="acq_data_in[141]" source="signal_tap_mod:stp_inst|signal_tap:stp_function|acq_data_in[141]"/>
+        <port name="acq_data_in[142]" source="signal_tap_mod:stp_inst|signal_tap:stp_function|acq_data_in[142]"/>
+        <port name="acq_data_in[143]" source="signal_tap_mod:stp_inst|signal_tap:stp_function|acq_data_in[143]"/>
+        <port name="acq_data_in[144]" source="signal_tap_mod:stp_inst|signal_tap:stp_function|acq_data_in[144]"/>
+        <port name="acq_data_in[145]" source="signal_tap_mod:stp_inst|signal_tap:stp_function|acq_data_in[145]"/>
+        <port name="acq_data_in[146]" source="signal_tap_mod:stp_inst|signal_tap:stp_function|acq_data_in[146]"/>
+        <port name="acq_data_in[147]" source="signal_tap_mod:stp_inst|signal_tap:stp_function|acq_data_in[147]"/>
+        <port name="acq_data_in[148]" source="signal_tap_mod:stp_inst|signal_tap:stp_function|acq_data_in[148]"/>
+        <port name="acq_data_in[149]" source="signal_tap_mod:stp_inst|signal_tap:stp_function|acq_data_in[149]"/>
+        <port name="acq_data_in[150]" source="signal_tap_mod:stp_inst|signal_tap:stp_function|acq_data_in[150]"/>
+        <port name="acq_data_in[151]" source="signal_tap_mod:stp_inst|signal_tap:stp_function|acq_data_in[151]"/>
+        <port name="acq_data_in[152]" source="signal_tap_mod:stp_inst|signal_tap:stp_function|acq_data_in[152]"/>
+        <port name="acq_data_in[153]" source="signal_tap_mod:stp_inst|signal_tap:stp_function|acq_data_in[153]"/>
+        <port name="acq_data_in[154]" source="signal_tap_mod:stp_inst|signal_tap:stp_function|acq_data_in[154]"/>
+        <port name="acq_data_in[155]" source="signal_tap_mod:stp_inst|signal_tap:stp_function|acq_data_in[155]"/>
+        <port name="acq_data_in[156]" source="signal_tap_mod:stp_inst|signal_tap:stp_function|acq_data_in[156]"/>
+        <port name="acq_data_in[157]" source="signal_tap_mod:stp_inst|signal_tap:stp_function|acq_data_in[157]"/>
+        <port name="acq_data_in[158]" source="signal_tap_mod:stp_inst|signal_tap:stp_function|acq_data_in[158]"/>
+        <port name="acq_data_in[159]" source="signal_tap_mod:stp_inst|signal_tap:stp_function|acq_data_in[159]"/>
+        <port name="acq_data_in[160]" source="signal_tap_mod:stp_inst|signal_tap:stp_function|acq_data_in[160]"/>
+        <port name="acq_data_in[161]" source="signal_tap_mod:stp_inst|signal_tap:stp_function|acq_data_in[161]"/>
+        <port name="acq_data_in[162]" source="signal_tap_mod:stp_inst|signal_tap:stp_function|acq_data_in[162]"/>
+        <port name="acq_data_in[163]" source="signal_tap_mod:stp_inst|signal_tap:stp_function|acq_data_in[163]"/>
+        <port name="acq_data_in[164]" source="signal_tap_mod:stp_inst|signal_tap:stp_function|acq_data_in[164]"/>
+        <port name="acq_data_in[165]" source="signal_tap_mod:stp_inst|signal_tap:stp_function|acq_data_in[165]"/>
+        <port name="acq_data_in[166]" source="signal_tap_mod:stp_inst|signal_tap:stp_function|acq_data_in[166]"/>
+        <port name="acq_data_in[167]" source="signal_tap_mod:stp_inst|signal_tap:stp_function|acq_data_in[167]"/>
+        <port name="acq_data_in[168]" source="signal_tap_mod:stp_inst|signal_tap:stp_function|acq_data_in[168]"/>
+        <port name="acq_data_in[169]" source="signal_tap_mod:stp_inst|signal_tap:stp_function|acq_data_in[169]"/>
+        <port name="acq_data_in[170]" source="signal_tap_mod:stp_inst|signal_tap:stp_function|acq_data_in[170]"/>
+        <port name="acq_data_in[171]" source="signal_tap_mod:stp_inst|signal_tap:stp_function|acq_data_in[171]"/>
+        <port name="acq_data_in[172]" source="signal_tap_mod:stp_inst|signal_tap:stp_function|acq_data_in[172]"/>
+        <port name="acq_data_in[173]" source="signal_tap_mod:stp_inst|signal_tap:stp_function|acq_data_in[173]"/>
+        <port name="acq_data_in[174]" source="signal_tap_mod:stp_inst|signal_tap:stp_function|acq_data_in[174]"/>
+        <port name="acq_data_in[175]" source="signal_tap_mod:stp_inst|signal_tap:stp_function|acq_data_in[175]"/>
+        <port name="acq_data_in[176]" source="signal_tap_mod:stp_inst|signal_tap:stp_function|acq_data_in[176]"/>
+        <port name="acq_data_in[177]" source="signal_tap_mod:stp_inst|signal_tap:stp_function|acq_data_in[177]"/>
+        <port name="acq_data_in[178]" source="signal_tap_mod:stp_inst|signal_tap:stp_function|acq_data_in[178]"/>
+        <port name="acq_data_in[179]" source="signal_tap_mod:stp_inst|signal_tap:stp_function|acq_data_in[179]"/>
+        <port name="acq_data_in[180]" source="signal_tap_mod:stp_inst|signal_tap:stp_function|acq_data_in[180]"/>
+        <port name="acq_data_in[181]" source="signal_tap_mod:stp_inst|signal_tap:stp_function|acq_data_in[181]"/>
+        <port name="acq_data_in[182]" source="signal_tap_mod:stp_inst|signal_tap:stp_function|acq_data_in[182]"/>
+        <port name="acq_data_in[183]" source="signal_tap_mod:stp_inst|signal_tap:stp_function|acq_data_in[183]"/>
+        <port name="acq_data_in[184]" source="signal_tap_mod:stp_inst|signal_tap:stp_function|acq_data_in[184]"/>
+        <port name="acq_data_in[185]" source="signal_tap_mod:stp_inst|signal_tap:stp_function|acq_data_in[185]"/>
+        <port name="acq_data_in[186]" source="signal_tap_mod:stp_inst|signal_tap:stp_function|acq_data_in[186]"/>
+        <port name="acq_data_in[187]" source="signal_tap_mod:stp_inst|signal_tap:stp_function|acq_data_in[187]"/>
+        <port name="acq_data_in[188]" source="signal_tap_mod:stp_inst|signal_tap:stp_function|acq_data_in[188]"/>
+        <port name="acq_data_in[189]" source="signal_tap_mod:stp_inst|signal_tap:stp_function|acq_data_in[189]"/>
+        <port name="acq_data_in[190]" source="signal_tap_mod:stp_inst|signal_tap:stp_function|acq_data_in[190]"/>
+        <port name="acq_data_in[191]" source="signal_tap_mod:stp_inst|signal_tap:stp_function|acq_data_in[191]"/>
+        <port name="acq_data_in[192]" source="signal_tap_mod:stp_inst|signal_tap:stp_function|acq_data_in[192]"/>
+        <port name="acq_data_in[193]" source="signal_tap_mod:stp_inst|signal_tap:stp_function|acq_data_in[193]"/>
+        <port name="acq_data_in[194]" source="signal_tap_mod:stp_inst|signal_tap:stp_function|acq_data_in[194]"/>
+        <port name="acq_data_in[195]" source="signal_tap_mod:stp_inst|signal_tap:stp_function|acq_data_in[195]"/>
+        <port name="acq_data_in[196]" source="signal_tap_mod:stp_inst|signal_tap:stp_function|acq_data_in[196]"/>
+        <port name="acq_data_in[197]" source="signal_tap_mod:stp_inst|signal_tap:stp_function|acq_data_in[197]"/>
+        <port name="acq_data_in[198]" source="signal_tap_mod:stp_inst|signal_tap:stp_function|acq_data_in[198]"/>
+        <port name="acq_data_in[199]" source="signal_tap_mod:stp_inst|signal_tap:stp_function|acq_data_in[199]"/>
+        <port name="acq_data_in[200]" source="signal_tap_mod:stp_inst|signal_tap:stp_function|acq_data_in[200]"/>
+        <port name="acq_data_in[201]" source="signal_tap_mod:stp_inst|signal_tap:stp_function|acq_data_in[201]"/>
+        <port name="acq_data_in[202]" source="signal_tap_mod:stp_inst|signal_tap:stp_function|acq_data_in[202]"/>
+        <port name="acq_data_in[203]" source="signal_tap_mod:stp_inst|signal_tap:stp_function|acq_data_in[203]"/>
+        <port name="acq_data_in[204]" source="signal_tap_mod:stp_inst|signal_tap:stp_function|acq_data_in[204]"/>
+        <port name="acq_data_in[205]" source="signal_tap_mod:stp_inst|signal_tap:stp_function|acq_data_in[205]"/>
+        <port name="acq_data_in[206]" source="signal_tap_mod:stp_inst|signal_tap:stp_function|acq_data_in[206]"/>
+        <port name="acq_data_in[207]" source="signal_tap_mod:stp_inst|signal_tap:stp_function|acq_data_in[207]"/>
+        <port name="acq_data_in[208]" source="signal_tap_mod:stp_inst|signal_tap:stp_function|acq_data_in[208]"/>
+        <port name="acq_data_in[209]" source="signal_tap_mod:stp_inst|signal_tap:stp_function|acq_data_in[209]"/>
+        <port name="acq_data_in[210]" source="signal_tap_mod:stp_inst|signal_tap:stp_function|acq_data_in[210]"/>
+        <port name="acq_data_in[211]" source="signal_tap_mod:stp_inst|signal_tap:stp_function|acq_data_in[211]"/>
+        <port name="acq_data_in[212]" source="signal_tap_mod:stp_inst|signal_tap:stp_function|acq_data_in[212]"/>
+        <port name="acq_data_in[213]" source="signal_tap_mod:stp_inst|signal_tap:stp_function|acq_data_in[213]"/>
+        <port name="acq_data_in[214]" source="signal_tap_mod:stp_inst|signal_tap:stp_function|acq_data_in[214]"/>
+        <port name="acq_data_in[215]" source="signal_tap_mod:stp_inst|signal_tap:stp_function|acq_data_in[215]"/>
+        <port name="acq_data_in[216]" source="signal_tap_mod:stp_inst|signal_tap:stp_function|acq_data_in[216]"/>
+        <port name="acq_data_in[217]" source="signal_tap_mod:stp_inst|signal_tap:stp_function|acq_data_in[217]"/>
+        <port name="acq_data_in[218]" source="signal_tap_mod:stp_inst|signal_tap:stp_function|acq_data_in[218]"/>
+        <port name="acq_data_in[219]" source="signal_tap_mod:stp_inst|signal_tap:stp_function|acq_data_in[219]"/>
+        <port name="acq_data_in[220]" source="signal_tap_mod:stp_inst|signal_tap:stp_function|acq_data_in[220]"/>
+        <port name="acq_data_in[221]" source="signal_tap_mod:stp_inst|signal_tap:stp_function|acq_data_in[221]"/>
+        <port name="acq_data_in[222]" source="signal_tap_mod:stp_inst|signal_tap:stp_function|acq_data_in[222]"/>
+        <port name="acq_data_in[223]" source="signal_tap_mod:stp_inst|signal_tap:stp_function|acq_data_in[223]"/>
+        <port name="acq_data_in[224]" source="signal_tap_mod:stp_inst|signal_tap:stp_function|acq_data_in[224]"/>
+        <port name="acq_data_in[225]" source="signal_tap_mod:stp_inst|signal_tap:stp_function|acq_data_in[225]"/>
+        <port name="acq_data_in[226]" source="signal_tap_mod:stp_inst|signal_tap:stp_function|acq_data_in[226]"/>
+        <port name="acq_data_in[227]" source="signal_tap_mod:stp_inst|signal_tap:stp_function|acq_data_in[227]"/>
+        <port name="acq_data_in[228]" source="signal_tap_mod:stp_inst|signal_tap:stp_function|acq_data_in[228]"/>
+        <port name="acq_data_in[229]" source="signal_tap_mod:stp_inst|signal_tap:stp_function|acq_data_in[229]"/>
+        <port name="acq_data_in[230]" source="signal_tap_mod:stp_inst|signal_tap:stp_function|acq_data_in[230]"/>
+        <port name="acq_data_in[231]" source="signal_tap_mod:stp_inst|signal_tap:stp_function|acq_data_in[231]"/>
+        <port name="acq_data_in[232]" source="signal_tap_mod:stp_inst|signal_tap:stp_function|acq_data_in[232]"/>
+        <port name="acq_data_in[233]" source="signal_tap_mod:stp_inst|signal_tap:stp_function|acq_data_in[233]"/>
+        <port name="acq_data_in[234]" source="signal_tap_mod:stp_inst|signal_tap:stp_function|acq_data_in[234]"/>
+        <port name="acq_data_in[235]" source="signal_tap_mod:stp_inst|signal_tap:stp_function|acq_data_in[235]"/>
+        <port name="acq_data_in[236]" source="signal_tap_mod:stp_inst|signal_tap:stp_function|acq_data_in[236]"/>
+        <port name="acq_data_in[237]" source="signal_tap_mod:stp_inst|signal_tap:stp_function|acq_data_in[237]"/>
+        <port name="acq_data_in[238]" source="signal_tap_mod:stp_inst|signal_tap:stp_function|acq_data_in[238]"/>
+        <port name="acq_data_in[239]" source="signal_tap_mod:stp_inst|signal_tap:stp_function|acq_data_in[239]"/>
+        <port name="acq_data_in[240]" source="signal_tap_mod:stp_inst|signal_tap:stp_function|acq_data_in[240]"/>
+        <port name="acq_data_in[241]" source="signal_tap_mod:stp_inst|signal_tap:stp_function|acq_data_in[241]"/>
+        <port name="acq_data_in[242]" source="signal_tap_mod:stp_inst|signal_tap:stp_function|acq_data_in[242]"/>
+        <port name="acq_data_in[243]" source="signal_tap_mod:stp_inst|signal_tap:stp_function|acq_data_in[243]"/>
+        <port name="acq_data_in[244]" source="signal_tap_mod:stp_inst|signal_tap:stp_function|acq_data_in[244]"/>
+        <port name="acq_data_in[245]" source="signal_tap_mod:stp_inst|signal_tap:stp_function|acq_data_in[245]"/>
+        <port name="acq_data_in[246]" source="signal_tap_mod:stp_inst|signal_tap:stp_function|acq_data_in[246]"/>
+        <port name="acq_data_in[247]" source="signal_tap_mod:stp_inst|signal_tap:stp_function|acq_data_in[247]"/>
+        <port name="acq_data_in[248]" source="signal_tap_mod:stp_inst|signal_tap:stp_function|acq_data_in[248]"/>
+        <port name="acq_data_in[249]" source="signal_tap_mod:stp_inst|signal_tap:stp_function|acq_data_in[249]"/>
+        <port name="acq_data_in[250]" source="signal_tap_mod:stp_inst|signal_tap:stp_function|acq_data_in[250]"/>
+        <port name="acq_data_in[251]" source="signal_tap_mod:stp_inst|signal_tap:stp_function|acq_data_in[251]"/>
+        <port name="acq_data_in[252]" source="signal_tap_mod:stp_inst|signal_tap:stp_function|acq_data_in[252]"/>
+        <port name="acq_data_in[253]" source="signal_tap_mod:stp_inst|signal_tap:stp_function|acq_data_in[253]"/>
+        <port name="acq_data_in[254]" source="signal_tap_mod:stp_inst|signal_tap:stp_function|acq_data_in[254]"/>
+        <port name="acq_data_in[255]" source="signal_tap_mod:stp_inst|signal_tap:stp_function|acq_data_in[255]"/>
+        <port name="acq_trigger_in[0]" source="signal_tap_mod:stp_inst|signal_tap:stp_function|acq_trigger_in[0]"/>
+        <port name="storage_enable" source="signal_tap_mod:stp_inst|signal_tap:stp_function|storage_enable"/>
+        <port name="jtag.bp.stp_inst_stp_function_sld_signaltap_component_raw_tck" source="jtag.bp.stp_inst_stp_function_sld_signaltap_component_raw_tck"/>
+        <port name="jtag.bp.stp_inst_stp_function_sld_signaltap_component_tdi" source="jtag.bp.stp_inst_stp_function_sld_signaltap_component_tdi"/>
+        <port name="jtag.bp.stp_inst_stp_function_sld_signaltap_component_usr1" source="jtag.bp.stp_inst_stp_function_sld_signaltap_component_usr1"/>
+        <port name="jtag.bp.stp_inst_stp_function_sld_signaltap_component_jtag_state_cdr" source="jtag.bp.stp_inst_stp_function_sld_signaltap_component_jtag_state_cdr"/>
+        <port name="jtag.bp.stp_inst_stp_function_sld_signaltap_component_jtag_state_sdr" source="jtag.bp.stp_inst_stp_function_sld_signaltap_component_jtag_state_sdr"/>
+        <port name="jtag.bp.stp_inst_stp_function_sld_signaltap_component_jtag_state_e1dr" source="jtag.bp.stp_inst_stp_function_sld_signaltap_component_jtag_state_e1dr"/>
+        <port name="jtag.bp.stp_inst_stp_function_sld_signaltap_component_jtag_state_udr" source="jtag.bp.stp_inst_stp_function_sld_signaltap_component_jtag_state_udr"/>
+        <port name="jtag.bp.stp_inst_stp_function_sld_signaltap_component_jtag_state_uir" source="jtag.bp.stp_inst_stp_function_sld_signaltap_component_jtag_state_uir"/>
+        <port name="jtag.bp.stp_inst_stp_function_sld_signaltap_component_clr" source="jtag.bp.stp_inst_stp_function_sld_signaltap_component_clr"/>
+        <port name="jtag.bp.stp_inst_stp_function_sld_signaltap_component_ena" source="jtag.bp.stp_inst_stp_function_sld_signaltap_component_ena"/>
+        <port name="jtag.bp.stp_inst_stp_function_sld_signaltap_component_ir_in_0_" source="jtag.bp.stp_inst_stp_function_sld_signaltap_component_ir_in_0_"/>
+        <port name="jtag.bp.stp_inst_stp_function_sld_signaltap_component_ir_in_1_" source="jtag.bp.stp_inst_stp_function_sld_signaltap_component_ir_in_1_"/>
+        <port name="jtag.bp.stp_inst_stp_function_sld_signaltap_component_ir_in_2_" source="jtag.bp.stp_inst_stp_function_sld_signaltap_component_ir_in_2_"/>
+        <port name="jtag.bp.stp_inst_stp_function_sld_signaltap_component_ir_in_3_" source="jtag.bp.stp_inst_stp_function_sld_signaltap_component_ir_in_3_"/>
+        <port name="jtag.bp.stp_inst_stp_function_sld_signaltap_component_ir_in_4_" source="jtag.bp.stp_inst_stp_function_sld_signaltap_component_ir_in_4_"/>
+        <port name="jtag.bp.stp_inst_stp_function_sld_signaltap_component_ir_in_5_" source="jtag.bp.stp_inst_stp_function_sld_signaltap_component_ir_in_5_"/>
+        <port name="jtag.bp.stp_inst_stp_function_sld_signaltap_component_ir_in_6_" source="jtag.bp.stp_inst_stp_function_sld_signaltap_component_ir_in_6_"/>
+        <port name="jtag.bp.stp_inst_stp_function_sld_signaltap_component_ir_in_7_" source="jtag.bp.stp_inst_stp_function_sld_signaltap_component_ir_in_7_"/>
+        <port name="jtag.bp.stp_inst_stp_function_sld_signaltap_component_ir_in_8_" source="jtag.bp.stp_inst_stp_function_sld_signaltap_component_ir_in_8_"/>
+        <port name="jtag.bp.stp_inst_stp_function_sld_signaltap_component_ir_in_9_" source="jtag.bp.stp_inst_stp_function_sld_signaltap_component_ir_in_9_"/>
+        <port name="jtag.bp.stp_inst_stp_function_sld_signaltap_component_jtag_state_tlr" source="jtag.bp.stp_inst_stp_function_sld_signaltap_component_jtag_state_tlr"/>
+        <port name="jtag.bp.stp_inst_stp_function_sld_signaltap_component_jtag_state_rti" source="jtag.bp.stp_inst_stp_function_sld_signaltap_component_jtag_state_rti"/>
+        <port name="jtag.bp.stp_inst_stp_function_sld_signaltap_component_jtag_state_sdrs" source="jtag.bp.stp_inst_stp_function_sld_signaltap_component_jtag_state_sdrs"/>
+        <port name="jtag.bp.stp_inst_stp_function_sld_signaltap_component_jtag_state_pdr" source="jtag.bp.stp_inst_stp_function_sld_signaltap_component_jtag_state_pdr"/>
+        <port name="jtag.bp.stp_inst_stp_function_sld_signaltap_component_jtag_state_e2dr" source="jtag.bp.stp_inst_stp_function_sld_signaltap_component_jtag_state_e2dr"/>
+        <port name="jtag.bp.stp_inst_stp_function_sld_signaltap_component_jtag_state_sirs" source="jtag.bp.stp_inst_stp_function_sld_signaltap_component_jtag_state_sirs"/>
+        <port name="jtag.bp.stp_inst_stp_function_sld_signaltap_component_jtag_state_cir" source="jtag.bp.stp_inst_stp_function_sld_signaltap_component_jtag_state_cir"/>
+        <port name="jtag.bp.stp_inst_stp_function_sld_signaltap_component_jtag_state_sir" source="jtag.bp.stp_inst_stp_function_sld_signaltap_component_jtag_state_sir"/>
+        <port name="jtag.bp.stp_inst_stp_function_sld_signaltap_component_jtag_state_e1ir" source="jtag.bp.stp_inst_stp_function_sld_signaltap_component_jtag_state_e1ir"/>
+        <port name="jtag.bp.stp_inst_stp_function_sld_signaltap_component_jtag_state_pir" source="jtag.bp.stp_inst_stp_function_sld_signaltap_component_jtag_state_pir"/>
+        <port name="jtag.bp.stp_inst_stp_function_sld_signaltap_component_jtag_state_e2ir" source="jtag.bp.stp_inst_stp_function_sld_signaltap_component_jtag_state_e2ir"/>
+        <port name="jtag.bp.stp_inst_stp_function_sld_signaltap_component_clrn" source="jtag.bp.stp_inst_stp_function_sld_signaltap_component_clrn"/>
+      </inputs>
+      <outputs>
+        <port name="jtag.bp.stp_inst_stp_function_sld_signaltap_component_irq"/>
+        <port name="jtag.bp.stp_inst_stp_function_sld_signaltap_component_ir_out_0_"/>
+        <port name="jtag.bp.stp_inst_stp_function_sld_signaltap_component_ir_out_1_"/>
+        <port name="jtag.bp.stp_inst_stp_function_sld_signaltap_component_ir_out_2_"/>
+        <port name="jtag.bp.stp_inst_stp_function_sld_signaltap_component_ir_out_3_"/>
+        <port name="jtag.bp.stp_inst_stp_function_sld_signaltap_component_ir_out_4_"/>
+        <port name="jtag.bp.stp_inst_stp_function_sld_signaltap_component_ir_out_5_"/>
+        <port name="jtag.bp.stp_inst_stp_function_sld_signaltap_component_ir_out_6_"/>
+        <port name="jtag.bp.stp_inst_stp_function_sld_signaltap_component_ir_out_7_"/>
+        <port name="jtag.bp.stp_inst_stp_function_sld_signaltap_component_ir_out_8_"/>
+        <port name="jtag.bp.stp_inst_stp_function_sld_signaltap_component_ir_out_9_"/>
+        <port name="jtag.bp.stp_inst_stp_function_sld_signaltap_component_tdo"/>
+      </outputs>
+    </node>
+  </node_info>
+  <sld_infos>
+    <sld_info hpath="sld_hub:auto_hub|alt_sld_fab:\instrumentation_fabric_with_node_gen:instrumentation_fabric" library="alt_sld_fab" name="instrumentation_fabric">
+      <assignment_values>
+        <assignment_value text="QSYS_NAME alt_sld_fab HAS_SOPCINFO 1"/>
+      </assignment_values>
+      <parameters/>
+    </sld_info>
+  </sld_infos>
+</sld_project_info>

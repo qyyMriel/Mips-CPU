@@ -1,0 +1,101 @@
+/*
+WARNING: Do NOT edit the input and output ports in this file in a text
+editor if you plan to continue editing the block that represents it in
+the Block Editor! File corruption is VERY likely to occur.
+*/
+/*
+Copyright (C) 1991-2013 Altera Corporation
+Your use of Altera Corporation's design tools, logic functions 
+and other software and tools, and its AMPP partner logic 
+functions, and any output files from any of the foregoing 
+(including device programming or simulation files), and any 
+associated documentation or information are expressly subject 
+to the terms and conditions of the Altera Program License 
+Subscription Agreement, Altera MegaCore Function License 
+Agreement, or other applicable license agreement, including, 
+without limitation, that your use is for the sole purpose of 
+programming logic devices manufactured by Altera and sold by 
+Altera or its authorized distributors.  Please refer to the 
+applicable agreement for further details.
+*/
+(header "symbol" (version "1.2"))
+(symbol
+	(rect 64 64 392 232)
+	(text "signal_tap_mod" (rect 216 144 304 156)(font "Arial" (font_size 8)))
+	(text "inst" (rect 8 144 26 155)(font "Arial" ))
+	(port
+		(pt 0 64)
+		(input)
+		(text "clk" (rect 0 0 15 12)(font "Arial" (font_size 8)))
+		(text "clk" (rect 21 59 36 71)(font "Arial" (font_size 8)))
+		(line (pt 0 64)(pt 16 64))
+	)
+	(port
+		(pt 64 0)
+		(input)
+		(text "pc_out[31..0]" (rect 0 0 74 12)(font "Arial" (font_size 8)))
+		(text "pc_out[31..0]" (rect 56 25 68 99)(font "Arial" (font_size 8))(vertical))
+		(line (pt 64 0)(pt 64 16)(line_width 3))
+	)
+	(port
+		(pt 96 0)
+		(input)
+		(text "im_out[31..0]" (rect 0 0 71 12)(font "Arial" (font_size 8)))
+		(text "im_out[31..0]" (rect 88 25 100 96)(font "Arial" (font_size 8))(vertical))
+		(line (pt 96 0)(pt 96 16)(line_width 3))
+	)
+	(port
+		(pt 128 0)
+		(input)
+		(text "rf_out_1[31..0]" (rect 0 0 83 12)(font "Arial" (font_size 8)))
+		(text "rf_out_1[31..0]" (rect 120 25 132 108)(font "Arial" (font_size 8))(vertical))
+		(line (pt 128 0)(pt 128 16)(line_width 3))
+	)
+	(port
+		(pt 160 0)
+		(input)
+		(text "rf_out_2[31..0]" (rect 0 0 83 12)(font "Arial" (font_size 8)))
+		(text "rf_out_2[31..0]" (rect 152 25 164 108)(font "Arial" (font_size 8))(vertical))
+		(line (pt 160 0)(pt 160 16)(line_width 3))
+	)
+	(port
+		(pt 192 0)
+		(input)
+		(text "alu_out[31..0]" (rect 0 0 76 12)(font "Arial" (font_size 8)))
+		(text "alu_out[31..0]" (rect 184 25 196 101)(font "Arial" (font_size 8))(vertical))
+		(line (pt 192 0)(pt 192 16)(line_width 3))
+	)
+	(port
+		(pt 224 0)
+		(input)
+		(text "dm_out[31..0]" (rect 0 0 76 12)(font "Arial" (font_size 8)))
+		(text "dm_out[31..0]" (rect 216 25 228 101)(font "Arial" (font_size 8))(vertical))
+		(line (pt 224 0)(pt 224 17)(line_width 3))
+	)
+	(port
+		(pt 256 0)
+		(input)
+		(text "dw_mus_out[31..0]" (rect 0 0 109 12)(font "Arial" (font_size 8)))
+		(text "dw_mus_out[31..0]" (rect 248 25 260 134)(font "Arial" (font_size 8))(vertical))
+		(line (pt 256 0)(pt 256 16)(line_width 3))
+	)
+	(port
+		(pt 288 0)
+		(input)
+		(text "user_sig[31..0]" (rect 0 0 84 12)(font "Arial" (font_size 8)))
+		(text "user_sig[31..0]" (rect 280 25 292 109)(font "Arial" (font_size 8))(vertical))
+		(line (pt 288 0)(pt 288 16)(line_width 3))
+	)
+	(port
+		(pt 0 128)
+		(input)
+		(text "strb_in" (rect 0 0 38 12)(font "Arial" (font_size 8)))
+		(text "strb_in" (rect 21 123 59 135)(font "Arial" (font_size 8)))
+		(line (pt 0 128)(pt 16 128))
+	)
+	(drawing
+		(line (pt 16 56)(pt 24 64))
+		(line (pt 24 64)(pt 16 72))
+		(rectangle (rect 16 16 304 144))
+	)
+)

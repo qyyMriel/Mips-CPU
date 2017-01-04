@@ -1,0 +1,7 @@
+{
+	"common_dir" : "/mnt/data/vikram_work/backed/CS6133_spring_2016/week6/fpga/mips_ss_v2/",
+	"acds_version" : "Version 15.1.1",
+	"platform" : "linux",
+	"os" : "Debian GNU/Linux",
+	"qpf" : "mips_ss_v2.qpf"
+}
