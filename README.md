@@ -8,9 +8,9 @@ Here is the simple CPU that the project is based on
 * Fibonacci Number Generator by writing  Mips assempbly code based on simple CPU.
 * Design the CPU by add components to implement Indexed, Auto Increment, Auto Decrement addressing modes to simple CPU.
 1.Indexed Addressing Mode 
-                       +---------------------------+---------------------------+
-                       | Indexed Addressing Mode   | [Rd] <- [Rd] + [Rs + Rt]  |
-                       +---------------------------+---------------------------+
+                       +---------------------------+---------------------------+ <br>
+                       | Indexed Addressing Mode   | [Rd] <- [Rd] + [Rs + Rt]  | <br>
+                       +---------------------------+---------------------------+ <br>
 The value to load is from data memory and the address of this data is the addition result of Rs and Rt
 
 2.Auto Increment Addressing Mode 
