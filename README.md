@@ -1,5 +1,5 @@
 # Mips-CPU
-CPU design and Generate Fibonacci Number
+CPU design and Generate Fibonacci Number<br>
 Here is the simple CPU that the project is based on
 ![Image of cpu](https://github.com/qyyMriel/Mips-CPU/blob/master/src/mips_ss_v2_sch.gif)
 
