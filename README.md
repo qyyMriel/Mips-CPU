@@ -1,7 +1,7 @@
 # Mips-CPU
 CPU design and Generate Fibonacci Number
 
-![Image of cpu](https://github.com/qyyMriel/Hangman-Game/blob/master/demoPic.png)
+![Image of cpu](https://github.com/qyyMriel/Mips-CPU/blob/master/src/mips_ss_v2_sch.gif)
 
 
 ##Description
