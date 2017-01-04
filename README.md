@@ -16,8 +16,7 @@ The value to load is from data memory and the address of this data is the additi
                    +----------------------------------+-----------------------------------+<br>
                    |  Auto Increment Addressing Mode  |  R1 <- R1 + M[R2], R2 <- R2 + 1   |<br>
                    +----------------------------------+-----------------------------------+<br>
-Firstly, add the r1 with data memory output and the address of data memory output is
-from R2, then add 4 to R2 automatically.  <br>   
+Firstly, add the r1 with data memory output and the address of data memory output is from R2, then add 4 to R2 automatically.  <br>   
 3.Auto Decrement Addressing Mode<br>
                        +-------------------------------+---------------------------+ <br>
                        |Auto Decrement Addressing Mode |  R2 <- R2 - 1             | <br>
