@@ -12,9 +12,7 @@ Here is the simple CPU that the project is based on
                        | Indexed Addressing Mode   | [Rd] <- [Rd] + [Rs + Rt]  | <br>
                        +---------------------------+---------------------------+ <br>
 The value to load is from data memory and the address of this data is the addition result of Rs and Rt<br>
-
 2.Auto Increment Addressing Mode <br>
-                       
                        +-------------------------------+---------------------------+<br>
                        |Auto Increment Addressing Mode |  R1 <- R1 + M[R2]         |<br>
                        |                               |  R2 <- R2 + 1             |<br>
