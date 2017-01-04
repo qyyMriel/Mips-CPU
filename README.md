@@ -9,7 +9,7 @@ Here is the simple CPU that the project is based on
 * Design the CPU by add components to implement Indexed, Auto Increment, Auto Decrement addressing modes to simple CPU.<br>
 1.Indexed Addressing Mode <br>
                        +---------------------------+---------------------------+ <br>
-                       | Indexed Addressing Mode   | [Rd] <- [Rd] + [Rs + Rt]  | <br>
+                       | Indexed Addressing Mode   | [Rd] <- [Rd] + [Rs + Rt]   | <br>
                        +---------------------------+---------------------------+ <br>
 The value to load is from data memory and the address of this data is the addition result of Rs and Rt<br>
 2.Auto Increment Addressing Mode <br>
